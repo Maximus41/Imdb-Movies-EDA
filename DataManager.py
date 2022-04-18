@@ -10,7 +10,7 @@ class RestApiManager:
         self.http = urllib3.PoolManager()
     
     def fetch(self, url, method, fields = None, headers = None):
-        print("Request details : url={}  method={}  fields={}  headers={}".format(url, method, fields, headers))
+        #print("Request details : url={}  method={}  fields={}  headers={}".format(url, method, fields, headers))
         response = self.call_api(url, method, fields, headers)
         return response
     
@@ -21,13 +21,14 @@ class RestApiManager:
             #print("Inside while loop")
             response = self.http.request(method, url, fields = query, headers = header)
             #print("Response Status = {}".format(response.status))
+            #print("Response Data = {}".format(response.data))
+            #print(response.data)
             if response.status == 200 :
-                return response.data
+                break
             else:
                 i+=1
                 print("Failed {} times".format(i))
-        if i == 3:
-            return None
+        return response
     
 class DownloadProgressState:
     def __init__(self, date = "NA",api_calls_today = 0, current_batch = 0, record_no = 0, overall_status = "In Progress"):
@@ -132,16 +133,15 @@ class RestClient:
     def __init__(self, movies_df):
         self.manager = RestApiManager()
         self.nosqlclient = MongoDBClient("Movies")
-        self.collection = ""
         self.df = movies_df
         self.state_machine = DataStateMachine(self.nosqlclient)
         
     def insertIntoMongo(self, data, name):
         self.nosqlclient.insert_one(json_data = data, coll_name = name)
         
-    def receive_response(self, response):
+    def receive_response(self, response, collection):
         self.response = response
-        self.insertIntoMongo(data = response, name = self.collection)
+        self.insertIntoMongo(data = response, name = collection)
     
     def update_state(self, state_obj):
         self.state_machine.update_state(state_obj)
@@ -180,7 +180,7 @@ class RestClient:
             tmdbid = movie['tmdbId']
             movieid = movie['movieId']
 
-            #print("Imdb Id = {}  Tmdb Id = {} Movie Id = {}".format(imdbid, tmdbid, movieid))
+            # print("Imdb Id = {}  Tmdb Id = {} Movie Id = {}".format(imdbid, tmdbid, movieid))
 
             #Prepending tt and 0's to transform the imdb ids to it's correct format 
             querystring = {"r":"json","i":"tt{}".format(str(imdbid).zfill(7))}
@@ -191,48 +191,51 @@ class RestClient:
             
             try:
                 #Calling rapid api for IMDB data
-                self.collection = self.IMDB
                 imdbresponse = self.manager.fetch(imdburl, "GET", fields = querystring, headers = rapid_api_headers)
-                imdbdict = json.loads(imdbresponse)
+                imdbdict = json.loads(imdbresponse.data)
                 imdbdict['_id'] = movieid
-                self.receive_response(imdbdict)
+                if imdbresponse.status == 200:
+                    self.receive_response(imdbdict, self.IMDB)
 
                 #Calling tmdb api 
-                self.collection = self.TMDB
                 tmdbresponse = self.manager.fetch(tmdburl, "GET")
-                tmdbdict = json.loads(tmdbresponse)
+                tmdbdict = json.loads(tmdbresponse.data)
                 tmdbdict['_id'] = movieid
-                self.receive_response(tmdbdict)
-                count += 1
+                if tmdbresponse.status == 200:
+                    self.receive_response(tmdbdict, self.TMDB)
+                
                 api_calls_count += 1
-
+                if imdbresponse.status == 200 or tmdbresponse.status == 200:
+                    count += 1
+                else:
+                    continue
+            
                 #print("\nRecord count : {}  Api Call Count : {}  Batch count : {} \n".format(str(count), str(api_calls_count), str(batch)))
-
+                should_update_state = False
+                status = "In Progress"
+                
                 #Updating api call state when download is complete
                 if ((batch * batch_size ) + count) == len(self.df):
                     print("Downloaded all records from the server")
-                    new_state = DownloadProgressState(date = date.today().strftime('%d/%m/%Y'), api_calls_today = api_calls_count,                                                                 current_batch = batch, record_no = count, overall_status = "Complete")
-                    new_state.reset_date()
-                    self.update_state(new_state)
-                    return
-
-                 #Checking after each api call if the daily limit has reached, update the api call state and return
-                if api_calls_count >= RestClient.DAILY_API_CALL_LIMIT:
+                    should_update_state = True
+                    status = "Complete"
+                #Checking after each api call if the daily limit has reached, update the api call state and return
+                elif api_calls_count >= RestClient.DAILY_API_CALL_LIMIT:
                     print("Max Api call limit for the day reached")
-                    new_state = DownloadProgressState(date = date.today().strftime('%d/%m/%Y'), api_calls_today = api_calls_count,                                                                 current_batch = batch, record_no = count)
-                    new_state.reset_date()
-                    self.update_state(new_state)
-                    return
-
+                    should_update_state = True
                 #Checking if the end of a batch has arrived and update the state
-                if  count == batch_size:
+                elif count == batch_size:
                     print("Batch number : {} downloaded successfully".format(str(batch)))
                     batch += 1
                     count = 0
-                    new_state = DownloadProgressState(date = date.today().strftime('%d/%m/%Y'), api_calls_today = api_calls_count,                                                                 current_batch = batch, record_no = count)
+                    should_update_state = True
+                if should_update_state:
+                    new_state = DownloadProgressState(date = date.today().strftime('%d/%m/%Y'), api_calls_today = api_calls_count,                                                                 current_batch = batch, record_no = count, overall_status = status)
                     new_state.reset_date()
                     self.update_state(new_state)
                     time.sleep(3)
+                    return
+                
             except:
                     new_state = DownloadProgressState(date = date.today().strftime('%d/%m/%Y'), api_calls_today = api_calls_count, 
                                                              current_batch = batch, record_no = count)
