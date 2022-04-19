@@ -10,7 +10,7 @@ class RestApiManager:
         self.http = urllib3.PoolManager()
     
     def fetch(self, url, method, fields = None, headers = None):
-        #print("Request details : url={}  method={}  fields={}  headers={}".format(url, method, fields, headers))
+        print("Request details : url={}  method={}  fields={}  headers={}".format(url, method, fields, headers))
         response = self.call_api(url, method, fields, headers)
         return response
     
@@ -20,7 +20,7 @@ class RestApiManager:
         while i < 3:
             #print("Inside while loop")
             response = self.http.request(method, url, fields = query, headers = header)
-            #print("Response Status = {}".format(response.status))
+            print("Response Status = {}".format(response.status))
             #print("Response Data = {}".format(response.data))
             #print(response.data)
             if response.status == 200 :
@@ -212,29 +212,33 @@ class RestClient:
             
                 #print("\nRecord count : {}  Api Call Count : {}  Batch count : {} \n".format(str(count), str(api_calls_count), str(batch)))
                 should_update_state = False
+                should_return = False
                 status = "In Progress"
                 
                 #Updating api call state when download is complete
                 if ((batch * batch_size ) + count) == len(self.df):
                     print("Downloaded all records from the server")
                     should_update_state = True
+                    should_return = True
                     status = "Complete"
                 #Checking after each api call if the daily limit has reached, update the api call state and return
                 elif api_calls_count >= RestClient.DAILY_API_CALL_LIMIT:
                     print("Max Api call limit for the day reached")
+                    should_return = True
                     should_update_state = True
                 #Checking if the end of a batch has arrived and update the state
-                elif count == batch_size:
+                elif count >= batch_size:
                     print("Batch number : {} downloaded successfully".format(str(batch)))
                     batch += 1
-                    count = 0
+                    count = count - batch_size if count > batch_size else 0
                     should_update_state = True
                 if should_update_state:
                     new_state = DownloadProgressState(date = date.today().strftime('%d/%m/%Y'), api_calls_today = api_calls_count,                                                                 current_batch = batch, record_no = count, overall_status = status)
                     new_state.reset_date()
                     self.update_state(new_state)
                     time.sleep(3)
-                    return
+                    if should_return:
+                        return
                 
             except:
                     new_state = DownloadProgressState(date = date.today().strftime('%d/%m/%Y'), api_calls_today = api_calls_count, 
