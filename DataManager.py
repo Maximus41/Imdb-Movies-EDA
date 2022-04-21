@@ -99,6 +99,9 @@ class MongoDBClient:
         
     def find_one(self, name, query = {}):
         return self.get_collection(name).find_one(query)
+    
+    def find_many(self, name, query = {}):
+        return self.get_collection(name).find(query)
             
     def get_collection(self, name):
         if isinstance(self.collection_dict.get(name), type(None)):

@@ -18,7 +18,8 @@ class Oscars:
         direction_checkbox = web.find_element_by_xpath('//*[@id="basicsearch"]/div/div[1]/div[2]/div/span/div/ul/li[12]/a/label')
         writing_checkbox = web.find_element_by_xpath('//*[@id="basicsearch"]/div/div[1]/div[2]/div/span/div/ul/li[28]/a/label')
         best_picture_checkbox = web.find_element_by_xpath('//*[@id="basicsearch"]/div/div[1]/div[2]/div/span/div/ul/li[22]/a/label')
-        music_original_score_checkbox = web.find_element_by_xpath('//*[@id="basicsearch"]/div/div[1]/div[2]/div/span/div/ul/li[20]/a/label')
+        actor_checkbox = web.find_element_by_xpath('//*[@id="basicsearch"]/div/div[1]/div[2]/div/span/div/ul/li[4]/a/label')
+        actress_checkbox = web.find_element_by_xpath('//*[@id="basicsearch"]/div/div[1]/div[2]/div/span/div/ul/li[6]/a/label')
 
         direction_checkbox.click()
         time.sleep(3)
@@ -26,8 +27,10 @@ class Oscars:
         time.sleep(3)
         best_picture_checkbox.click()
         time.sleep(3)
-        music_original_score_checkbox.click()
-
+        actor_checkbox.click()
+        time.sleep(3)
+        actress_checkbox.click()
+        
         year_from_button = web.find_element_by_xpath('//*[@id="basicsearch"]/div/div[2]/div[2]/div/div[1]/span/div/button')
         year_from_button.click()
         time.sleep(3)
@@ -54,11 +57,11 @@ class Oscars:
 
         for year_element in find_year_results:
             award_header_text = year_element.find_element_by_css_selector('a.nominations-link').text
-            print(award_header_text)
+            #print(award_header_text)
             subgroups = year_element.find_elements_by_css_selector('.result-subgroup')
             ceremony_dict = {}
             title_split_arr = award_header_text.split(" ")
-            print(title_split_arr)
+            #print(title_split_arr)
             year = title_split_arr[0]
             index = title_split_arr[1]
             ceremony_dict["year"] = year
@@ -66,13 +69,15 @@ class Oscars:
             oscars_dict["oscar_ceremonies"].append(ceremony_dict)
 
             directing_dict = {}
-            muscic_director_dict = {}
+            acting_dict = {}
+            acting_female_dict = {}
             best_picture_dict = {}
             writing_adapted_dict = {}
             writing_original_dict = {}
 
             ceremony_dict["directing"] = directing_dict
-            ceremony_dict["music"] = muscic_director_dict
+            ceremony_dict["acting"] = acting_dict
+            ceremony_dict["acting_female"] = acting_female_dict
             ceremony_dict["best_picture"] = best_picture_dict
             ceremony_dict["writing_adapted"] = writing_adapted_dict
             ceremony_dict["writing_original"] = writing_original_dict
@@ -80,8 +85,11 @@ class Oscars:
             directing_dict["nominations"] = []
             directing_dict["winner"] = {}
 
-            muscic_director_dict["nominations"] = []
-            muscic_director_dict["winner"] = {}
+            acting_dict["nominations"] = []
+            acting_dict["winner"] = {}
+            
+            acting_female_dict["nominations"] = []
+            acting_female_dict["winner"] = {}
 
             best_picture_dict["nominations"] = []
             best_picture_dict["winner"] = {}
@@ -110,14 +118,20 @@ class Oscars:
                             directing_dict["winner"] = {"movie" : movie, "director" : director}
                         #print(movie + "-" + director + "-" + str(is_winner))
 
-                    elif subgrp_title == "MUSIC (Original Score)":
-                        music_director = result.find_element_by_css_selector('.awards-result-nomination .awards-result-nominationstatement').text
+                    elif subgrp_title == "ACTOR IN A LEADING ROLE":
+                        actor = result.find_element_by_css_selector('.awards-result-nomination .awards-result-nominationstatement').text
                         size = len(movie)
-                        muscic_director_dict["nominations"].append({"movie" : movie[:size-3], "music_director" : music_director})
+                        acting_dict["nominations"].append({"movie" : movie[:size-3], "actor" : actor})
                         if is_winner:
-                            muscic_director_dict["winner"] = {"movie" : movie[:size-3], "music_director" : music_director}
+                            acting_dict["winner"] = {"movie" : movie[:size-3], "actor" : actor}
                         #print(movie + "-" + music_director + "-" + str(is_winner))
-
+                    elif subgrp_title == "ACTRESS IN A LEADING ROLE":
+                        actress = result.find_element_by_css_selector('.awards-result-nomination .awards-result-nominationstatement').text
+                        size = len(movie)
+                        acting_female_dict["nominations"].append({"movie" : movie[:size-3], "actress" : actress})
+                        if is_winner:
+                            acting_female_dict["winner"] = {"movie" : movie[:size-3], "actress" : actress}
+                        #print(movie + "-" + music_director + "-" + str(is_winner))
                     elif subgrp_title == "BEST PICTURE":
                         best_picture_dict["nominations"].append({"movie" : movie})
                         if is_winner:
@@ -137,5 +151,6 @@ class Oscars:
                             writing_original_dict["winner"] = {"movie" : movie, "writer" : writer_original}
                         #print(movie + "-" + writer_original + "-" + str(is_winner))
 
-        print(oscars_dict)
+        #print(oscars_dict)
         web.close()
+        return oscars_dict

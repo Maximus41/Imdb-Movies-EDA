@@ -2,7 +2,7 @@ import psycopg2
 
 class Connection:
     
-    def __init__(self, db_name):
+    def __init__(self, db_name = None):
         self.connection = self.open(db_name)
     
     def open(self, db_name):
