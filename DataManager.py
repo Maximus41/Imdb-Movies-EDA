@@ -94,14 +94,24 @@ class MongoDBClient:
         collection = self.db[name]
         self.collection_dict = {name : collection}
         
+    def create_collections(self, list):
+        for name in list:
+            self.create_collection(name)
+        
     def count_documents(self, name, query = {}):
         return self.get_collection(name).count_documents(query)
+    
+    def get_collections_list(self):
+        return self.db.list_collection_names()
         
     def find_one(self, name, query = {}):
         return self.get_collection(name).find_one(query)
     
     def find_many(self, name, query = {}):
         return self.get_collection(name).find(query)
+    
+    def find_many_with_projection(self, name, query = {}, projection = {}):
+        return self.get_collection(name).find(query, projection)
             
     def get_collection(self, name):
         if isinstance(self.collection_dict.get(name), type(None)):

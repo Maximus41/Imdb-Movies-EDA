@@ -7,3 +7,5 @@ dependencies:
 - selenium = 3.141.0
 - psycopg2
 - sqlalchemy
+- seaborn = 0.11.2
+- matplotlib = 3.5.1
