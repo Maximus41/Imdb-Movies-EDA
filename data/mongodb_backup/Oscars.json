@@ -1,0 +1,3926 @@
+[{
+  "_id": {
+    "$oid": "6264b1c5dc3142ac111be7b2"
+  },
+  "year": "2002",
+  "index": "(75th)",
+  "directing": {
+    "nominations": [
+      {
+        "movie": "Chicago",
+        "director": "Rob Marshall"
+      },
+      {
+        "movie": "Gangs of New York",
+        "director": "Martin Scorsese"
+      },
+      {
+        "movie": "The Hours",
+        "director": "Stephen Daldry"
+      },
+      {
+        "movie": "The Pianist",
+        "director": "Roman Polanski"
+      },
+      {
+        "movie": "Talk to Her",
+        "director": "Pedro Almodóvar"
+      }
+    ],
+    "winner": {
+      "movie": "The Pianist",
+      "director": "Roman Polanski"
+    }
+  },
+  "acting": {
+    "nominations": [
+      {
+        "movie": "The Pianist",
+        "actor": "Adrien Brody"
+      },
+      {
+        "movie": "Adaptation",
+        "actor": "Nicolas Cage"
+      },
+      {
+        "movie": "The Quiet American",
+        "actor": "Michael Caine"
+      },
+      {
+        "movie": "Gangs of New York",
+        "actor": "Daniel Day-Lewis"
+      },
+      {
+        "movie": "About Schmidt",
+        "actor": "Jack Nicholson"
+      }
+    ],
+    "winner": {
+      "movie": "The Pianist",
+      "actor": "Adrien Brody"
+    }
+  },
+  "acting_female": {
+    "nominations": [
+      {
+        "movie": "Frida",
+        "actress": "Salma Hayek"
+      },
+      {
+        "movie": "The Hours",
+        "actress": "Nicole Kidman"
+      },
+      {
+        "movie": "Unfaithful",
+        "actress": "Diane Lane"
+      },
+      {
+        "movie": "Far from Heaven",
+        "actress": "Julianne Moore"
+      },
+      {
+        "movie": "Chicago",
+        "actress": "Renée Zellweger"
+      }
+    ],
+    "winner": {
+      "movie": "The Hours",
+      "actress": "Nicole Kidman"
+    }
+  },
+  "support_acting": {
+    "nominations": [
+      {
+        "movie": "Adaptation",
+        "actor": "Chris Cooper"
+      },
+      {
+        "movie": "The Hours",
+        "actor": "Ed Harris"
+      },
+      {
+        "movie": "Road to Perdition",
+        "actor": "Paul Newman"
+      },
+      {
+        "movie": "Chicago",
+        "actor": "John C. Reilly"
+      },
+      {
+        "movie": "Catch Me If You Can",
+        "actor": "Christopher Walken"
+      }
+    ],
+    "winner": {
+      "movie": "Adaptation",
+      "actor": "Chris Cooper"
+    }
+  },
+  "support_acting_female": {
+    "nominations": [
+      {
+        "movie": "About Schmidt",
+        "actress": "Kathy Bates"
+      },
+      {
+        "movie": "The Hours",
+        "actress": "Julianne Moore"
+      },
+      {
+        "movie": "Chicago",
+        "actress": "Queen Latifah"
+      },
+      {
+        "movie": "Adaptation",
+        "actress": "Meryl Streep"
+      },
+      {
+        "movie": "Chicago",
+        "actress": "Catherine Zeta-Jones"
+      }
+    ],
+    "winner": {
+      "movie": "Chicago",
+      "actress": "Catherine Zeta-Jones"
+    }
+  },
+  "best_picture": {
+    "nominations": [
+      {
+        "movie": "Chicago"
+      },
+      {
+        "movie": "Gangs of New York"
+      },
+      {
+        "movie": "The Hours"
+      },
+      {
+        "movie": "The Lord of the Rings: The Two Towers"
+      },
+      {
+        "movie": "The Pianist"
+      }
+    ],
+    "winner": {
+      "movie": "Chicago"
+    }
+  },
+  "writing_adapted": {
+    "nominations": [
+      {
+        "movie": "About a Boy",
+        "writer": "Screenplay by Peter Hedges and Chris Weitz & Paul Weitz"
+      },
+      {
+        "movie": "Adaptation",
+        "writer": "Screenplay by Charlie Kaufman and Donald Kaufman"
+      },
+      {
+        "movie": "Chicago",
+        "writer": "Screenplay by Bill Condon"
+      },
+      {
+        "movie": "The Hours",
+        "writer": "Screenplay by David Hare"
+      },
+      {
+        "movie": "The Pianist",
+        "writer": "Screenplay by Ronald Harwood"
+      }
+    ],
+    "winner": {
+      "movie": "The Pianist",
+      "writer": "Screenplay by Ronald Harwood"
+    }
+  },
+  "writing_original": {
+    "nominations": [
+      {
+        "movie": "Far from Heaven",
+        "writer": "Written by Todd Haynes"
+      },
+      {
+        "movie": "Gangs of New York",
+        "writer": "Screenplay by Jay Cocks and Steve Zaillian and Kenneth Lonergan; Story by Jay Cocks"
+      },
+      {
+        "movie": "My Big Fat Greek Wedding",
+        "writer": "Written by Nia Vardalos"
+      },
+      {
+        "movie": "Talk to Her",
+        "writer": "Written by Pedro Almodóvar"
+      },
+      {
+        "movie": "Y Tu Mamá También",
+        "writer": "Written by Carlos Cuarón and Alfonso Cuarón"
+      }
+    ],
+    "winner": {
+      "movie": "Talk to Her",
+      "writer": "Written by Pedro Almodóvar"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6264b1c5dc3142ac111be7b3"
+  },
+  "year": "2003",
+  "index": "(76th)",
+  "directing": {
+    "nominations": [
+      {
+        "movie": "City of God",
+        "director": "Fernando Meirelles"
+      },
+      {
+        "movie": "The Lord of the Rings: The Return of the King",
+        "director": "Peter Jackson"
+      },
+      {
+        "movie": "Lost in Translation",
+        "director": "Sofia Coppola"
+      },
+      {
+        "movie": "Master and Commander: The Far Side of the World",
+        "director": "Peter Weir"
+      },
+      {
+        "movie": "Mystic River",
+        "director": "Clint Eastwood"
+      }
+    ],
+    "winner": {
+      "movie": "The Lord of the Rings: The Return of the King",
+      "director": "Peter Jackson"
+    }
+  },
+  "acting": {
+    "nominations": [
+      {
+        "movie": "Pirates of the Caribbean: The Curse of the Black Pearl",
+        "actor": "Johnny Depp"
+      },
+      {
+        "movie": "House of Sand and Fog",
+        "actor": "Ben Kingsley"
+      },
+      {
+        "movie": "Cold Mountain",
+        "actor": "Jude Law"
+      },
+      {
+        "movie": "Lost in Translation",
+        "actor": "Bill Murray"
+      },
+      {
+        "movie": "Mystic River",
+        "actor": "Sean Penn"
+      }
+    ],
+    "winner": {
+      "movie": "Mystic River",
+      "actor": "Sean Penn"
+    }
+  },
+  "acting_female": {
+    "nominations": [
+      {
+        "movie": "Whale Rider",
+        "actress": "Keisha Castle-Hughes"
+      },
+      {
+        "movie": "Something's Gotta Give",
+        "actress": "Diane Keaton"
+      },
+      {
+        "movie": "In America",
+        "actress": "Samantha Morton"
+      },
+      {
+        "movie": "Monster",
+        "actress": "Charlize Theron"
+      },
+      {
+        "movie": "21 Grams",
+        "actress": "Naomi Watts"
+      }
+    ],
+    "winner": {
+      "movie": "Monster",
+      "actress": "Charlize Theron"
+    }
+  },
+  "support_acting": {
+    "nominations": [
+      {
+        "movie": "The Cooler",
+        "actor": "Alec Baldwin"
+      },
+      {
+        "movie": "21 Grams",
+        "actor": "Benicio Del Toro"
+      },
+      {
+        "movie": "In America",
+        "actor": "Djimon Hounsou"
+      },
+      {
+        "movie": "Mystic River",
+        "actor": "Tim Robbins"
+      },
+      {
+        "movie": "The Last Samurai",
+        "actor": "Ken Watanabe"
+      }
+    ],
+    "winner": {
+      "movie": "Mystic River",
+      "actor": "Tim Robbins"
+    }
+  },
+  "support_acting_female": {
+    "nominations": [
+      {
+        "movie": "House of Sand and Fog",
+        "actress": "Shohreh Aghdashloo"
+      },
+      {
+        "movie": "Pieces of April",
+        "actress": "Patricia Clarkson"
+      },
+      {
+        "movie": "Mystic River",
+        "actress": "Marcia Gay Harden"
+      },
+      {
+        "movie": "Thirteen",
+        "actress": "Holly Hunter"
+      },
+      {
+        "movie": "Cold Mountain",
+        "actress": "Renée Zellweger"
+      }
+    ],
+    "winner": {
+      "movie": "Cold Mountain",
+      "actress": "Renée Zellweger"
+    }
+  },
+  "best_picture": {
+    "nominations": [
+      {
+        "movie": "The Lord of the Rings: The Return of the King"
+      },
+      {
+        "movie": "Lost in Translation"
+      },
+      {
+        "movie": "Master and Commander: The Far Side of the World"
+      },
+      {
+        "movie": "Mystic River"
+      },
+      {
+        "movie": "Seabiscuit"
+      }
+    ],
+    "winner": {
+      "movie": "The Lord of the Rings: The Return of the King"
+    }
+  },
+  "writing_adapted": {
+    "nominations": [
+      {
+        "movie": "American Splendor",
+        "writer": "Written by Robert Pulcini & Shari Springer Berman"
+      },
+      {
+        "movie": "City of God",
+        "writer": "Screenplay by Braulio Mantovani"
+      },
+      {
+        "movie": "The Lord of the Rings: The Return of the King",
+        "writer": "Screenplay by Fran Walsh, Philippa Boyens & Peter Jackson"
+      },
+      {
+        "movie": "Mystic River",
+        "writer": "Screenplay by Brian Helgeland"
+      },
+      {
+        "movie": "Seabiscuit",
+        "writer": "Written for the Screen by Gary Ross"
+      }
+    ],
+    "winner": {
+      "movie": "The Lord of the Rings: The Return of the King",
+      "writer": "Screenplay by Fran Walsh, Philippa Boyens & Peter Jackson"
+    }
+  },
+  "writing_original": {
+    "nominations": [
+      {
+        "movie": "The Barbarian Invasions",
+        "writer": "Written by Denys Arcand"
+      },
+      {
+        "movie": "Dirty Pretty Things",
+        "writer": "Written by Steven Knight"
+      },
+      {
+        "movie": "Finding Nemo",
+        "writer": "Screenplay by Andrew Stanton, Bob Peterson and David Reynolds; Original Story by Andrew Stanton"
+      },
+      {
+        "movie": "In America",
+        "writer": "Written by Jim Sheridan & Naomi Sheridan & Kirsten Sheridan"
+      },
+      {
+        "movie": "Lost in Translation",
+        "writer": "Written by Sofia Coppola"
+      }
+    ],
+    "winner": {
+      "movie": "Lost in Translation",
+      "writer": "Written by Sofia Coppola"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6264b1c5dc3142ac111be7b4"
+  },
+  "year": "2004",
+  "index": "(77th)",
+  "directing": {
+    "nominations": [
+      {
+        "movie": "The Aviator",
+        "director": "Martin Scorsese"
+      },
+      {
+        "movie": "Million Dollar Baby",
+        "director": "Clint Eastwood"
+      },
+      {
+        "movie": "Ray",
+        "director": "Taylor Hackford"
+      },
+      {
+        "movie": "Sideways",
+        "director": "Alexander Payne"
+      },
+      {
+        "movie": "Vera Drake",
+        "director": "Mike Leigh"
+      }
+    ],
+    "winner": {
+      "movie": "Million Dollar Baby",
+      "director": "Clint Eastwood"
+    }
+  },
+  "acting": {
+    "nominations": [
+      {
+        "movie": "Hotel Rwanda",
+        "actor": "Don Cheadle"
+      },
+      {
+        "movie": "Finding Neverland",
+        "actor": "Johnny Depp"
+      },
+      {
+        "movie": "The Aviator",
+        "actor": "Leonardo DiCaprio"
+      },
+      {
+        "movie": "Million Dollar Baby",
+        "actor": "Clint Eastwood"
+      },
+      {
+        "movie": "Ray",
+        "actor": "Jamie Foxx"
+      }
+    ],
+    "winner": {
+      "movie": "Ray",
+      "actor": "Jamie Foxx"
+    }
+  },
+  "acting_female": {
+    "nominations": [
+      {
+        "movie": "Being Julia",
+        "actress": "Annette Bening"
+      },
+      {
+        "movie": "Maria Full of Grace",
+        "actress": "Catalina Sandino Moreno"
+      },
+      {
+        "movie": "Vera Drake",
+        "actress": "Imelda Staunton"
+      },
+      {
+        "movie": "Million Dollar Baby",
+        "actress": "Hilary Swank"
+      },
+      {
+        "movie": "Eternal Sunshine of the Spotless Mind",
+        "actress": "Kate Winslet"
+      }
+    ],
+    "winner": {
+      "movie": "Million Dollar Baby",
+      "actress": "Hilary Swank"
+    }
+  },
+  "support_acting": {
+    "nominations": [
+      {
+        "movie": "The Aviator",
+        "actor": "Alan Alda"
+      },
+      {
+        "movie": "Sideways",
+        "actor": "Thomas Haden Church"
+      },
+      {
+        "movie": "Collateral",
+        "actor": "Jamie Foxx"
+      },
+      {
+        "movie": "Million Dollar Baby",
+        "actor": "Morgan Freeman"
+      },
+      {
+        "movie": "Closer",
+        "actor": "Clive Owen"
+      }
+    ],
+    "winner": {
+      "movie": "Million Dollar Baby",
+      "actor": "Morgan Freeman"
+    }
+  },
+  "support_acting_female": {
+    "nominations": [
+      {
+        "movie": "The Aviator",
+        "actress": "Cate Blanchett"
+      },
+      {
+        "movie": "Kinsey",
+        "actress": "Laura Linney"
+      },
+      {
+        "movie": "Sideways",
+        "actress": "Virginia Madsen"
+      },
+      {
+        "movie": "Hotel Rwanda",
+        "actress": "Sophie Okonedo"
+      },
+      {
+        "movie": "Closer",
+        "actress": "Natalie Portman"
+      }
+    ],
+    "winner": {
+      "movie": "The Aviator",
+      "actress": "Cate Blanchett"
+    }
+  },
+  "best_picture": {
+    "nominations": [
+      {
+        "movie": "The Aviator"
+      },
+      {
+        "movie": "Finding Neverland"
+      },
+      {
+        "movie": "Million Dollar Baby"
+      },
+      {
+        "movie": "Ray"
+      },
+      {
+        "movie": "Sideways"
+      }
+    ],
+    "winner": {
+      "movie": "Million Dollar Baby"
+    }
+  },
+  "writing_adapted": {
+    "nominations": [
+      {
+        "movie": "Before Sunset",
+        "writer": "Screenplay by Richard Linklater & Julie Delpy & Ethan Hawke; Story by Richard Linklater & Kim Krizan"
+      },
+      {
+        "movie": "Finding Neverland",
+        "writer": "Screenplay by David Magee"
+      },
+      {
+        "movie": "Million Dollar Baby",
+        "writer": "Screenplay by Paul Haggis"
+      },
+      {
+        "movie": "The Motorcycle Diaries",
+        "writer": "Screenplay by José Rivera"
+      },
+      {
+        "movie": "Sideways",
+        "writer": "Screenplay by Alexander Payne & Jim Taylor"
+      }
+    ],
+    "winner": {
+      "movie": "Sideways",
+      "writer": "Screenplay by Alexander Payne & Jim Taylor"
+    }
+  },
+  "writing_original": {
+    "nominations": [
+      {
+        "movie": "The Aviator",
+        "writer": "Written by John Logan"
+      },
+      {
+        "movie": "Eternal Sunshine of the Spotless Mind",
+        "writer": "Screenplay by Charlie Kaufman; Story by Charlie Kaufman & Michel Gondry & Pierre Bismuth"
+      },
+      {
+        "movie": "Hotel Rwanda",
+        "writer": "Written by Keir Pearson & Terry George"
+      },
+      {
+        "movie": "The Incredibles",
+        "writer": "Written by Brad Bird"
+      },
+      {
+        "movie": "Vera Drake",
+        "writer": "Written by Mike Leigh"
+      }
+    ],
+    "winner": {
+      "movie": "Eternal Sunshine of the Spotless Mind",
+      "writer": "Screenplay by Charlie Kaufman; Story by Charlie Kaufman & Michel Gondry & Pierre Bismuth"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6264b1c5dc3142ac111be7b5"
+  },
+  "year": "2005",
+  "index": "(78th)",
+  "directing": {
+    "nominations": [
+      {
+        "movie": "Brokeback Mountain",
+        "director": "Ang Lee"
+      },
+      {
+        "movie": "Capote",
+        "director": "Bennett Miller"
+      },
+      {
+        "movie": "Crash",
+        "director": "Paul Haggis"
+      },
+      {
+        "movie": "Good Night, and Good Luck.",
+        "director": "George Clooney"
+      },
+      {
+        "movie": "Munich",
+        "director": "Steven Spielberg"
+      }
+    ],
+    "winner": {
+      "movie": "Brokeback Mountain",
+      "director": "Ang Lee"
+    }
+  },
+  "acting": {
+    "nominations": [
+      {
+        "movie": "Capote",
+        "actor": "Philip Seymour Hoffman"
+      },
+      {
+        "movie": "Hustle & Flow",
+        "actor": "Terrence Howard"
+      },
+      {
+        "movie": "Brokeback Mountain",
+        "actor": "Heath Ledger"
+      },
+      {
+        "movie": "Walk the Line",
+        "actor": "Joaquin Phoenix"
+      },
+      {
+        "movie": "Good Night, and Good Luck.",
+        "actor": "David Strathairn"
+      }
+    ],
+    "winner": {
+      "movie": "Capote",
+      "actor": "Philip Seymour Hoffman"
+    }
+  },
+  "acting_female": {
+    "nominations": [
+      {
+        "movie": "Mrs. Henderson Presents",
+        "actress": "Judi Dench"
+      },
+      {
+        "movie": "Transamerica",
+        "actress": "Felicity Huffman"
+      },
+      {
+        "movie": "Pride & Prejudice",
+        "actress": "Keira Knightley"
+      },
+      {
+        "movie": "North Country",
+        "actress": "Charlize Theron"
+      },
+      {
+        "movie": "Walk the Line",
+        "actress": "Reese Witherspoon"
+      }
+    ],
+    "winner": {
+      "movie": "Walk the Line",
+      "actress": "Reese Witherspoon"
+    }
+  },
+  "support_acting": {
+    "nominations": [
+      {
+        "movie": "Syriana",
+        "actor": "George Clooney"
+      },
+      {
+        "movie": "Crash",
+        "actor": "Matt Dillon"
+      },
+      {
+        "movie": "Cinderella Man",
+        "actor": "Paul Giamatti"
+      },
+      {
+        "movie": "Brokeback Mountain",
+        "actor": "Jake Gyllenhaal"
+      },
+      {
+        "movie": "A History of Violence",
+        "actor": "William Hurt"
+      }
+    ],
+    "winner": {
+      "movie": "Syriana",
+      "actor": "George Clooney"
+    }
+  },
+  "support_acting_female": {
+    "nominations": [
+      {
+        "movie": "Junebug",
+        "actress": "Amy Adams"
+      },
+      {
+        "movie": "Capote",
+        "actress": "Catherine Keener"
+      },
+      {
+        "movie": "North Country",
+        "actress": "Frances McDormand"
+      },
+      {
+        "movie": "The Constant Gardener",
+        "actress": "Rachel Weisz"
+      },
+      {
+        "movie": "Brokeback Mountain",
+        "actress": "Michelle Williams"
+      }
+    ],
+    "winner": {
+      "movie": "The Constant Gardener",
+      "actress": "Rachel Weisz"
+    }
+  },
+  "best_picture": {
+    "nominations": [
+      {
+        "movie": "Brokeback Mountain"
+      },
+      {
+        "movie": "Capote"
+      },
+      {
+        "movie": "Crash"
+      },
+      {
+        "movie": "Good Night, and Good Luck."
+      },
+      {
+        "movie": "Munich"
+      }
+    ],
+    "winner": {
+      "movie": "Crash"
+    }
+  },
+  "writing_adapted": {
+    "nominations": [
+      {
+        "movie": "Brokeback Mountain",
+        "writer": "Screenplay by Larry McMurtry & Diana Ossana"
+      },
+      {
+        "movie": "Capote",
+        "writer": "Screenplay by Dan Futterman"
+      },
+      {
+        "movie": "The Constant Gardener",
+        "writer": "Screenplay by Jeffrey Caine"
+      },
+      {
+        "movie": "A History of Violence",
+        "writer": "Screenplay by Josh Olson"
+      },
+      {
+        "movie": "Munich",
+        "writer": "Screenplay by Tony Kushner and Eric Roth"
+      }
+    ],
+    "winner": {
+      "movie": "Brokeback Mountain",
+      "writer": "Screenplay by Larry McMurtry & Diana Ossana"
+    }
+  },
+  "writing_original": {
+    "nominations": [
+      {
+        "movie": "Crash",
+        "writer": "Screenplay by Paul Haggis & Bobby Moresco; Story by Paul Haggis"
+      },
+      {
+        "movie": "Good Night, and Good Luck.",
+        "writer": "Screenplay by George Clooney & Grant Heslov"
+      },
+      {
+        "movie": "Match Point",
+        "writer": "Written by Woody Allen"
+      },
+      {
+        "movie": "The Squid and the Whale",
+        "writer": "Written by Noah Baumbach"
+      },
+      {
+        "movie": "Syriana",
+        "writer": "Written by Stephen Gaghan"
+      }
+    ],
+    "winner": {
+      "movie": "Crash",
+      "writer": "Screenplay by Paul Haggis & Bobby Moresco; Story by Paul Haggis"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6264b1c5dc3142ac111be7b6"
+  },
+  "year": "2006",
+  "index": "(79th)",
+  "directing": {
+    "nominations": [
+      {
+        "movie": "Babel",
+        "director": "Alejandro González Iñárritu"
+      },
+      {
+        "movie": "The Departed",
+        "director": "Martin Scorsese"
+      },
+      {
+        "movie": "Letters from Iwo Jima",
+        "director": "Clint Eastwood"
+      },
+      {
+        "movie": "The Queen",
+        "director": "Stephen Frears"
+      },
+      {
+        "movie": "United 93",
+        "director": "Paul Greengrass"
+      }
+    ],
+    "winner": {
+      "movie": "The Departed",
+      "director": "Martin Scorsese"
+    }
+  },
+  "acting": {
+    "nominations": [
+      {
+        "movie": "Blood Diamond",
+        "actor": "Leonardo DiCaprio"
+      },
+      {
+        "movie": "Half Nelson",
+        "actor": "Ryan Gosling"
+      },
+      {
+        "movie": "Venus",
+        "actor": "Peter O'Toole"
+      },
+      {
+        "movie": "The Pursuit of Happyness",
+        "actor": "Will Smith"
+      },
+      {
+        "movie": "The Last King of Scotland",
+        "actor": "Forest Whitaker"
+      }
+    ],
+    "winner": {
+      "movie": "The Last King of Scotland",
+      "actor": "Forest Whitaker"
+    }
+  },
+  "acting_female": {
+    "nominations": [
+      {
+        "movie": "Volver",
+        "actress": "Penélope Cruz"
+      },
+      {
+        "movie": "Notes on a Scandal",
+        "actress": "Judi Dench"
+      },
+      {
+        "movie": "The Queen",
+        "actress": "Helen Mirren"
+      },
+      {
+        "movie": "The Devil Wears Prada",
+        "actress": "Meryl Streep"
+      },
+      {
+        "movie": "Little Children",
+        "actress": "Kate Winslet"
+      }
+    ],
+    "winner": {
+      "movie": "The Queen",
+      "actress": "Helen Mirren"
+    }
+  },
+  "support_acting": {
+    "nominations": [
+      {
+        "movie": "Little Miss Sunshine",
+        "actor": "Alan Arkin"
+      },
+      {
+        "movie": "Little Children",
+        "actor": "Jackie Earle Haley"
+      },
+      {
+        "movie": "Blood Diamond",
+        "actor": "Djimon Hounsou"
+      },
+      {
+        "movie": "Dreamgirls",
+        "actor": "Eddie Murphy"
+      },
+      {
+        "movie": "The Departed",
+        "actor": "Mark Wahlberg"
+      }
+    ],
+    "winner": {
+      "movie": "Little Miss Sunshine",
+      "actor": "Alan Arkin"
+    }
+  },
+  "support_acting_female": {
+    "nominations": [
+      {
+        "movie": "Babel",
+        "actress": "Adriana Barraza"
+      },
+      {
+        "movie": "Notes on a Scandal",
+        "actress": "Cate Blanchett"
+      },
+      {
+        "movie": "Little Miss Sunshine",
+        "actress": "Abigail Breslin"
+      },
+      {
+        "movie": "Dreamgirls",
+        "actress": "Jennifer Hudson"
+      },
+      {
+        "movie": "Babel",
+        "actress": "Rinko Kikuchi"
+      }
+    ],
+    "winner": {
+      "movie": "Dreamgirls",
+      "actress": "Jennifer Hudson"
+    }
+  },
+  "best_picture": {
+    "nominations": [
+      {
+        "movie": "Babel"
+      },
+      {
+        "movie": "The Departed"
+      },
+      {
+        "movie": "Letters from Iwo Jima"
+      },
+      {
+        "movie": "Little Miss Sunshine"
+      },
+      {
+        "movie": "The Queen"
+      }
+    ],
+    "winner": {
+      "movie": "The Departed"
+    }
+  },
+  "writing_adapted": {
+    "nominations": [
+      {
+        "movie": "Borat Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan",
+        "writer": "Screenplay by Sacha Baron Cohen & Anthony Hines & Peter Baynham & Dan Mazer; Story by Sacha Baron Cohen & Peter Baynham & Anthony Hines & Todd Phillips"
+      },
+      {
+        "movie": "Children of Men",
+        "writer": "Screenplay by Alfonso Cuarón & Timothy J. Sexton and David Arata and Mark Fergus & Hawk Ostby"
+      },
+      {
+        "movie": "The Departed",
+        "writer": "Screenplay by William Monahan"
+      },
+      {
+        "movie": "Little Children",
+        "writer": "Screenplay by Todd Field & Tom Perrotta"
+      },
+      {
+        "movie": "Notes on a Scandal",
+        "writer": "Screenplay by Patrick Marber"
+      }
+    ],
+    "winner": {
+      "movie": "The Departed",
+      "writer": "Screenplay by William Monahan"
+    }
+  },
+  "writing_original": {
+    "nominations": [
+      {
+        "movie": "Babel",
+        "writer": "Written by Guillermo Arriaga"
+      },
+      {
+        "movie": "Letters from Iwo Jima",
+        "writer": "Screenplay by Iris Yamashita; Story by Iris Yamashita & Paul Haggis"
+      },
+      {
+        "movie": "Little Miss Sunshine",
+        "writer": "Written by Michael Arndt"
+      },
+      {
+        "movie": "Pan's Labyrinth",
+        "writer": "Written by Guillermo del Toro"
+      },
+      {
+        "movie": "The Queen",
+        "writer": "Written by Peter Morgan"
+      }
+    ],
+    "winner": {
+      "movie": "Little Miss Sunshine",
+      "writer": "Written by Michael Arndt"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6264b1c5dc3142ac111be7b7"
+  },
+  "year": "2007",
+  "index": "(80th)",
+  "directing": {
+    "nominations": [
+      {
+        "movie": "The Diving Bell and the Butterfly",
+        "director": "Julian Schnabel"
+      },
+      {
+        "movie": "Juno",
+        "director": "Jason Reitman"
+      },
+      {
+        "movie": "Michael Clayton",
+        "director": "Tony Gilroy"
+      },
+      {
+        "movie": "No Country for Old Men",
+        "director": "Joel Coen and Ethan Coen"
+      },
+      {
+        "movie": "There Will Be Blood",
+        "director": "Paul Thomas Anderson"
+      }
+    ],
+    "winner": {
+      "movie": "No Country for Old Men",
+      "director": "Joel Coen and Ethan Coen"
+    }
+  },
+  "acting": {
+    "nominations": [
+      {
+        "movie": "Michael Clayton",
+        "actor": "George Clooney"
+      },
+      {
+        "movie": "There Will Be Blood",
+        "actor": "Daniel Day-Lewis"
+      },
+      {
+        "movie": "Sweeney Todd The Demon Barber of Fleet Street",
+        "actor": "Johnny Depp"
+      },
+      {
+        "movie": "In the Valley of Elah",
+        "actor": "Tommy Lee Jones"
+      },
+      {
+        "movie": "Eastern Promises",
+        "actor": "Viggo Mortensen"
+      }
+    ],
+    "winner": {
+      "movie": "There Will Be Blood",
+      "actor": "Daniel Day-Lewis"
+    }
+  },
+  "acting_female": {
+    "nominations": [
+      {
+        "movie": "Elizabeth: The Golden Age",
+        "actress": "Cate Blanchett"
+      },
+      {
+        "movie": "Away from Her",
+        "actress": "Julie Christie"
+      },
+      {
+        "movie": "La Vie en Rose",
+        "actress": "Marion Cotillard"
+      },
+      {
+        "movie": "The Savages",
+        "actress": "Laura Linney"
+      },
+      {
+        "movie": "Juno",
+        "actress": "Elliot Page"
+      }
+    ],
+    "winner": {
+      "movie": "La Vie en Rose",
+      "actress": "Marion Cotillard"
+    }
+  },
+  "support_acting": {
+    "nominations": [
+      {
+        "movie": "The Assassination of Jesse James by the Coward Robert Ford",
+        "actor": "Casey Affleck"
+      },
+      {
+        "movie": "No Country for Old Men",
+        "actor": "Javier Bardem"
+      },
+      {
+        "movie": "Charlie Wilson's War",
+        "actor": "Philip Seymour Hoffman"
+      },
+      {
+        "movie": "Into the Wild",
+        "actor": "Hal Holbrook"
+      },
+      {
+        "movie": "Michael Clayton",
+        "actor": "Tom Wilkinson"
+      }
+    ],
+    "winner": {
+      "movie": "No Country for Old Men",
+      "actor": "Javier Bardem"
+    }
+  },
+  "support_acting_female": {
+    "nominations": [
+      {
+        "movie": "I'm Not There",
+        "actress": "Cate Blanchett"
+      },
+      {
+        "movie": "American Gangster",
+        "actress": "Ruby Dee"
+      },
+      {
+        "movie": "Atonement",
+        "actress": "Saoirse Ronan"
+      },
+      {
+        "movie": "Gone Baby Gone",
+        "actress": "Amy Ryan"
+      },
+      {
+        "movie": "Michael Clayton",
+        "actress": "Tilda Swinton"
+      }
+    ],
+    "winner": {
+      "movie": "Michael Clayton",
+      "actress": "Tilda Swinton"
+    }
+  },
+  "best_picture": {
+    "nominations": [
+      {
+        "movie": "Atonement"
+      },
+      {
+        "movie": "Juno"
+      },
+      {
+        "movie": "Michael Clayton"
+      },
+      {
+        "movie": "No Country for Old Men"
+      },
+      {
+        "movie": "There Will Be Blood"
+      }
+    ],
+    "winner": {
+      "movie": "No Country for Old Men"
+    }
+  },
+  "writing_adapted": {
+    "nominations": [
+      {
+        "movie": "Atonement",
+        "writer": "Screenplay by Christopher Hampton"
+      },
+      {
+        "movie": "Away from Her",
+        "writer": "Written by Sarah Polley"
+      },
+      {
+        "movie": "The Diving Bell and the Butterfly",
+        "writer": "Screenplay by Ronald Harwood"
+      },
+      {
+        "movie": "No Country for Old Men",
+        "writer": "Written for the screen by Joel Coen & Ethan Coen"
+      },
+      {
+        "movie": "There Will Be Blood",
+        "writer": "Written for the Screen by Paul Thomas Anderson"
+      }
+    ],
+    "winner": {
+      "movie": "No Country for Old Men",
+      "writer": "Written for the screen by Joel Coen & Ethan Coen"
+    }
+  },
+  "writing_original": {
+    "nominations": [
+      {
+        "movie": "Juno",
+        "writer": "Written by Diablo Cody"
+      },
+      {
+        "movie": "Lars and the Real Girl",
+        "writer": "Written by Nancy Oliver"
+      },
+      {
+        "movie": "Michael Clayton",
+        "writer": "Written by Tony Gilroy"
+      },
+      {
+        "movie": "Ratatouille",
+        "writer": "Screenplay by Brad Bird; Story by Jan Pinkava, Jim Capobianco, Brad Bird"
+      },
+      {
+        "movie": "The Savages",
+        "writer": "Written by Tamara Jenkins"
+      }
+    ],
+    "winner": {
+      "movie": "Juno",
+      "writer": "Written by Diablo Cody"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6264b1c5dc3142ac111be7b8"
+  },
+  "year": "2008",
+  "index": "(81st)",
+  "directing": {
+    "nominations": [
+      {
+        "movie": "The Curious Case of Benjamin Button",
+        "director": "David Fincher"
+      },
+      {
+        "movie": "Frost/Nixon",
+        "director": "Ron Howard"
+      },
+      {
+        "movie": "Milk",
+        "director": "Gus Van Sant"
+      },
+      {
+        "movie": "The Reader",
+        "director": "Stephen Daldry"
+      },
+      {
+        "movie": "Slumdog Millionaire",
+        "director": "Danny Boyle"
+      }
+    ],
+    "winner": {
+      "movie": "Slumdog Millionaire",
+      "director": "Danny Boyle"
+    }
+  },
+  "acting": {
+    "nominations": [
+      {
+        "movie": "The Visitor",
+        "actor": "Richard Jenkins"
+      },
+      {
+        "movie": "Frost/Nixon",
+        "actor": "Frank Langella"
+      },
+      {
+        "movie": "Milk",
+        "actor": "Sean Penn"
+      },
+      {
+        "movie": "The Curious Case of Benjamin Button",
+        "actor": "Brad Pitt"
+      },
+      {
+        "movie": "The Wrestler",
+        "actor": "Mickey Rourke"
+      }
+    ],
+    "winner": {
+      "movie": "Milk",
+      "actor": "Sean Penn"
+    }
+  },
+  "acting_female": {
+    "nominations": [
+      {
+        "movie": "Rachel Getting Married",
+        "actress": "Anne Hathaway"
+      },
+      {
+        "movie": "Changeling",
+        "actress": "Angelina Jolie"
+      },
+      {
+        "movie": "Frozen River",
+        "actress": "Melissa Leo"
+      },
+      {
+        "movie": "Doubt",
+        "actress": "Meryl Streep"
+      },
+      {
+        "movie": "The Reader",
+        "actress": "Kate Winslet"
+      }
+    ],
+    "winner": {
+      "movie": "The Reader",
+      "actress": "Kate Winslet"
+    }
+  },
+  "support_acting": {
+    "nominations": [
+      {
+        "movie": "Milk",
+        "actor": "Josh Brolin"
+      },
+      {
+        "movie": "Tropic Thunder",
+        "actor": "Robert Downey Jr."
+      },
+      {
+        "movie": "Doubt",
+        "actor": "Philip Seymour Hoffman"
+      },
+      {
+        "movie": "The Dark Knight",
+        "actor": "Heath Ledger"
+      },
+      {
+        "movie": "Revolutionary Road",
+        "actor": "Michael Shannon"
+      }
+    ],
+    "winner": {
+      "movie": "The Dark Knight",
+      "actor": "Heath Ledger"
+    }
+  },
+  "support_acting_female": {
+    "nominations": [
+      {
+        "movie": "Doubt",
+        "actress": "Amy Adams"
+      },
+      {
+        "movie": "Vicky Cristina Barcelona",
+        "actress": "Penélope Cruz"
+      },
+      {
+        "movie": "Doubt",
+        "actress": "Viola Davis"
+      },
+      {
+        "movie": "The Curious Case of Benjamin Button",
+        "actress": "Taraji P. Henson"
+      },
+      {
+        "movie": "The Wrestler",
+        "actress": "Marisa Tomei"
+      }
+    ],
+    "winner": {
+      "movie": "Vicky Cristina Barcelona",
+      "actress": "Penélope Cruz"
+    }
+  },
+  "best_picture": {
+    "nominations": [
+      {
+        "movie": "The Curious Case of Benjamin Button"
+      },
+      {
+        "movie": "Frost/Nixon"
+      },
+      {
+        "movie": "Milk"
+      },
+      {
+        "movie": "The Reader"
+      },
+      {
+        "movie": "Slumdog Millionaire"
+      }
+    ],
+    "winner": {
+      "movie": "Slumdog Millionaire"
+    }
+  },
+  "writing_adapted": {
+    "nominations": [
+      {
+        "movie": "The Curious Case of Benjamin Button",
+        "writer": "Screenplay by Eric Roth; Screen story by Eric Roth and Robin Swicord"
+      },
+      {
+        "movie": "Doubt",
+        "writer": "Written by John Patrick Shanley"
+      },
+      {
+        "movie": "Frost/Nixon",
+        "writer": "Screenplay by Peter Morgan"
+      },
+      {
+        "movie": "The Reader",
+        "writer": "Screenplay by David Hare"
+      },
+      {
+        "movie": "Slumdog Millionaire",
+        "writer": "Screenplay by Simon Beaufoy"
+      }
+    ],
+    "winner": {
+      "movie": "Slumdog Millionaire",
+      "writer": "Screenplay by Simon Beaufoy"
+    }
+  },
+  "writing_original": {
+    "nominations": [
+      {
+        "movie": "Frozen River",
+        "writer": "Written by Courtney Hunt"
+      },
+      {
+        "movie": "Happy-Go-Lucky",
+        "writer": "Written by Mike Leigh"
+      },
+      {
+        "movie": "In Bruges",
+        "writer": "Written by Martin McDonagh"
+      },
+      {
+        "movie": "Milk",
+        "writer": "Written by Dustin Lance Black"
+      },
+      {
+        "movie": "WALL-E",
+        "writer": "Screenplay by Andrew Stanton, Jim Reardon; Original story by Andrew Stanton, Pete Docter"
+      }
+    ],
+    "winner": {
+      "movie": "Milk",
+      "writer": "Written by Dustin Lance Black"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6264b1c5dc3142ac111be7b9"
+  },
+  "year": "2009",
+  "index": "(82nd)",
+  "directing": {
+    "nominations": [
+      {
+        "movie": "Avatar",
+        "director": "James Cameron"
+      },
+      {
+        "movie": "The Hurt Locker",
+        "director": "Kathryn Bigelow"
+      },
+      {
+        "movie": "Inglourious Basterds",
+        "director": "Quentin Tarantino"
+      },
+      {
+        "movie": "Precious: Based on the Novel 'Push' by Sapphire",
+        "director": "Lee Daniels"
+      },
+      {
+        "movie": "Up in the Air",
+        "director": "Jason Reitman"
+      }
+    ],
+    "winner": {
+      "movie": "The Hurt Locker",
+      "director": "Kathryn Bigelow"
+    }
+  },
+  "acting": {
+    "nominations": [
+      {
+        "movie": "Crazy Heart",
+        "actor": "Jeff Bridges"
+      },
+      {
+        "movie": "Up in the Air",
+        "actor": "George Clooney"
+      },
+      {
+        "movie": "A Single Man",
+        "actor": "Colin Firth"
+      },
+      {
+        "movie": "Invictus",
+        "actor": "Morgan Freeman"
+      },
+      {
+        "movie": "The Hurt Locker",
+        "actor": "Jeremy Renner"
+      }
+    ],
+    "winner": {
+      "movie": "Crazy Heart",
+      "actor": "Jeff Bridges"
+    }
+  },
+  "acting_female": {
+    "nominations": [
+      {
+        "movie": "The Blind Side",
+        "actress": "Sandra Bullock"
+      },
+      {
+        "movie": "The Last Station",
+        "actress": "Helen Mirren"
+      },
+      {
+        "movie": "An Education",
+        "actress": "Carey Mulligan"
+      },
+      {
+        "movie": "Precious: Based on the Novel 'Push' by Sapphire",
+        "actress": "Gabourey Sidibe"
+      },
+      {
+        "movie": "Julie & Julia",
+        "actress": "Meryl Streep"
+      }
+    ],
+    "winner": {
+      "movie": "The Blind Side",
+      "actress": "Sandra Bullock"
+    }
+  },
+  "support_acting": {
+    "nominations": [
+      {
+        "movie": "Invictus",
+        "actor": "Matt Damon"
+      },
+      {
+        "movie": "The Messenger",
+        "actor": "Woody Harrelson"
+      },
+      {
+        "movie": "The Last Station",
+        "actor": "Christopher Plummer"
+      },
+      {
+        "movie": "The Lovely Bones",
+        "actor": "Stanley Tucci"
+      },
+      {
+        "movie": "Inglourious Basterds",
+        "actor": "Christoph Waltz"
+      }
+    ],
+    "winner": {
+      "movie": "Inglourious Basterds",
+      "actor": "Christoph Waltz"
+    }
+  },
+  "support_acting_female": {
+    "nominations": [
+      {
+        "movie": "Nine",
+        "actress": "Penélope Cruz"
+      },
+      {
+        "movie": "Up in the Air",
+        "actress": "Vera Farmiga"
+      },
+      {
+        "movie": "Crazy Heart",
+        "actress": "Maggie Gyllenhaal"
+      },
+      {
+        "movie": "Up in the Air",
+        "actress": "Anna Kendrick"
+      },
+      {
+        "movie": "Precious: Based on the Novel 'Push' by Sapphire",
+        "actress": "Mo'Nique"
+      }
+    ],
+    "winner": {
+      "movie": "Precious: Based on the Novel 'Push' by Sapphire",
+      "actress": "Mo'Nique"
+    }
+  },
+  "best_picture": {
+    "nominations": [
+      {
+        "movie": "Avatar"
+      },
+      {
+        "movie": "The Blind Side"
+      },
+      {
+        "movie": "District 9"
+      },
+      {
+        "movie": "An Education"
+      },
+      {
+        "movie": "The Hurt Locker"
+      },
+      {
+        "movie": "Inglourious Basterds"
+      },
+      {
+        "movie": "Precious: Based on the Novel 'Push' by Sapphire"
+      },
+      {
+        "movie": "A Serious Man"
+      },
+      {
+        "movie": "Up"
+      },
+      {
+        "movie": "Up in the Air"
+      }
+    ],
+    "winner": {
+      "movie": "The Hurt Locker"
+    }
+  },
+  "writing_adapted": {
+    "nominations": [
+      {
+        "movie": "District 9",
+        "writer": "Written by Neill Blomkamp and Terri Tatchell"
+      },
+      {
+        "movie": "An Education",
+        "writer": "Screenplay by Nick Hornby"
+      },
+      {
+        "movie": "In the Loop",
+        "writer": "Screenplay by Jesse Armstrong, Simon Blackwell, Armando Iannucci, Tony Roche"
+      },
+      {
+        "movie": "Precious: Based on the Novel 'Push' by Sapphire",
+        "writer": "Screenplay by Geoffrey Fletcher"
+      },
+      {
+        "movie": "Up in the Air",
+        "writer": "Screenplay by Jason Reitman and Sheldon Turner"
+      }
+    ],
+    "winner": {
+      "movie": "Precious: Based on the Novel 'Push' by Sapphire",
+      "writer": "Screenplay by Geoffrey Fletcher"
+    }
+  },
+  "writing_original": {
+    "nominations": [
+      {
+        "movie": "The Hurt Locker",
+        "writer": "Written by Mark Boal"
+      },
+      {
+        "movie": "Inglourious Basterds",
+        "writer": "Written by Quentin Tarantino"
+      },
+      {
+        "movie": "The Messenger",
+        "writer": "Written by Alessandro Camon & Oren Moverman"
+      },
+      {
+        "movie": "A Serious Man",
+        "writer": "Written by Joel Coen & Ethan Coen"
+      },
+      {
+        "movie": "Up",
+        "writer": "Screenplay by Bob Peterson, Pete Docter; Story by Pete Docter, Bob Peterson, Tom McCarthy"
+      }
+    ],
+    "winner": {
+      "movie": "The Hurt Locker",
+      "writer": "Written by Mark Boal"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6264b1c5dc3142ac111be7ba"
+  },
+  "year": "2010",
+  "index": "(83rd)",
+  "directing": {
+    "nominations": [
+      {
+        "movie": "Black Swan",
+        "director": "Darren Aronofsky"
+      },
+      {
+        "movie": "The Fighter",
+        "director": "David O. Russell"
+      },
+      {
+        "movie": "The King's Speech",
+        "director": "Tom Hooper"
+      },
+      {
+        "movie": "The Social Network",
+        "director": "David Fincher"
+      },
+      {
+        "movie": "True Grit",
+        "director": "Joel Coen and Ethan Coen"
+      }
+    ],
+    "winner": {
+      "movie": "The King's Speech",
+      "director": "Tom Hooper"
+    }
+  },
+  "acting": {
+    "nominations": [
+      {
+        "movie": "Biutiful",
+        "actor": "Javier Bardem"
+      },
+      {
+        "movie": "True Grit",
+        "actor": "Jeff Bridges"
+      },
+      {
+        "movie": "The Social Network",
+        "actor": "Jesse Eisenberg"
+      },
+      {
+        "movie": "The King's Speech",
+        "actor": "Colin Firth"
+      },
+      {
+        "movie": "127 Hours",
+        "actor": "James Franco"
+      }
+    ],
+    "winner": {
+      "movie": "The King's Speech",
+      "actor": "Colin Firth"
+    }
+  },
+  "acting_female": {
+    "nominations": [
+      {
+        "movie": "The Kids Are All Right",
+        "actress": "Annette Bening"
+      },
+      {
+        "movie": "Rabbit Hole",
+        "actress": "Nicole Kidman"
+      },
+      {
+        "movie": "Winter's Bone",
+        "actress": "Jennifer Lawrence"
+      },
+      {
+        "movie": "Black Swan",
+        "actress": "Natalie Portman"
+      },
+      {
+        "movie": "Blue Valentine",
+        "actress": "Michelle Williams"
+      }
+    ],
+    "winner": {
+      "movie": "Black Swan",
+      "actress": "Natalie Portman"
+    }
+  },
+  "support_acting": {
+    "nominations": [
+      {
+        "movie": "The Fighter",
+        "actor": "Christian Bale"
+      },
+      {
+        "movie": "Winter's Bone",
+        "actor": "John Hawkes"
+      },
+      {
+        "movie": "The Town",
+        "actor": "Jeremy Renner"
+      },
+      {
+        "movie": "The Kids Are All Right",
+        "actor": "Mark Ruffalo"
+      },
+      {
+        "movie": "The King's Speech",
+        "actor": "Geoffrey Rush"
+      }
+    ],
+    "winner": {
+      "movie": "The Fighter",
+      "actor": "Christian Bale"
+    }
+  },
+  "support_acting_female": {
+    "nominations": [
+      {
+        "movie": "The Fighter",
+        "actress": "Amy Adams"
+      },
+      {
+        "movie": "The King's Speech",
+        "actress": "Helena Bonham Carter"
+      },
+      {
+        "movie": "The Fighter",
+        "actress": "Melissa Leo"
+      },
+      {
+        "movie": "True Grit",
+        "actress": "Hailee Steinfeld"
+      },
+      {
+        "movie": "Animal Kingdom",
+        "actress": "Jacki Weaver"
+      }
+    ],
+    "winner": {
+      "movie": "The Fighter",
+      "actress": "Melissa Leo"
+    }
+  },
+  "best_picture": {
+    "nominations": [
+      {
+        "movie": "Black Swan"
+      },
+      {
+        "movie": "The Fighter"
+      },
+      {
+        "movie": "Inception"
+      },
+      {
+        "movie": "The Kids Are All Right"
+      },
+      {
+        "movie": "The King's Speech"
+      },
+      {
+        "movie": "127 Hours"
+      },
+      {
+        "movie": "The Social Network"
+      },
+      {
+        "movie": "Toy Story 3"
+      },
+      {
+        "movie": "True Grit"
+      },
+      {
+        "movie": "Winter's Bone"
+      }
+    ],
+    "winner": {
+      "movie": "The King's Speech"
+    }
+  },
+  "writing_adapted": {
+    "nominations": [
+      {
+        "movie": "127 Hours",
+        "writer": "Screenplay by Danny Boyle & Simon Beaufoy"
+      },
+      {
+        "movie": "The Social Network",
+        "writer": "Screenplay by Aaron Sorkin"
+      },
+      {
+        "movie": "Toy Story 3",
+        "writer": "Screenplay by Michael Arndt; Story by John Lasseter, Andrew Stanton and Lee Unkrich"
+      },
+      {
+        "movie": "True Grit",
+        "writer": "Written for the screen by Joel Coen & Ethan Coen"
+      },
+      {
+        "movie": "Winter's Bone",
+        "writer": "Adapted for the screen by Debra Granik & Anne Rosellini"
+      }
+    ],
+    "winner": {
+      "movie": "The Social Network",
+      "writer": "Screenplay by Aaron Sorkin"
+    }
+  },
+  "writing_original": {
+    "nominations": [
+      {
+        "movie": "Another Year",
+        "writer": "Written by Mike Leigh"
+      },
+      {
+        "movie": "The Fighter",
+        "writer": "Screenplay by Scott Silver and Paul Tamasy & Eric Johnson; Story by Keith Dorrington & Paul Tamasy & Eric Johnson"
+      },
+      {
+        "movie": "Inception",
+        "writer": "Written by Christopher Nolan"
+      },
+      {
+        "movie": "The Kids Are All Right",
+        "writer": "Written by Lisa Cholodenko & Stuart Blumberg"
+      },
+      {
+        "movie": "The King's Speech",
+        "writer": "Screenplay by David Seidler"
+      }
+    ],
+    "winner": {
+      "movie": "The King's Speech",
+      "writer": "Screenplay by David Seidler"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6264b1c5dc3142ac111be7bb"
+  },
+  "year": "2011",
+  "index": "(84th)",
+  "directing": {
+    "nominations": [
+      {
+        "movie": "The Artist",
+        "director": "Michel Hazanavicius"
+      },
+      {
+        "movie": "The Descendants",
+        "director": "Alexander Payne"
+      },
+      {
+        "movie": "Hugo",
+        "director": "Martin Scorsese"
+      },
+      {
+        "movie": "Midnight in Paris",
+        "director": "Woody Allen"
+      },
+      {
+        "movie": "The Tree of Life",
+        "director": "Terrence Malick"
+      }
+    ],
+    "winner": {
+      "movie": "The Artist",
+      "director": "Michel Hazanavicius"
+    }
+  },
+  "acting": {
+    "nominations": [
+      {
+        "movie": "A Better Life",
+        "actor": "Demián Bichir"
+      },
+      {
+        "movie": "The Descendants",
+        "actor": "George Clooney"
+      },
+      {
+        "movie": "The Artist",
+        "actor": "Jean Dujardin"
+      },
+      {
+        "movie": "Tinker Tailor Soldier Spy",
+        "actor": "Gary Oldman"
+      },
+      {
+        "movie": "Moneyball",
+        "actor": "Brad Pitt"
+      }
+    ],
+    "winner": {
+      "movie": "The Artist",
+      "actor": "Jean Dujardin"
+    }
+  },
+  "acting_female": {
+    "nominations": [
+      {
+        "movie": "Albert Nobbs",
+        "actress": "Glenn Close"
+      },
+      {
+        "movie": "The Help",
+        "actress": "Viola Davis"
+      },
+      {
+        "movie": "The Girl with the Dragon Tattoo",
+        "actress": "Rooney Mara"
+      },
+      {
+        "movie": "The Iron Lady",
+        "actress": "Meryl Streep"
+      },
+      {
+        "movie": "My Week with Marilyn",
+        "actress": "Michelle Williams"
+      }
+    ],
+    "winner": {
+      "movie": "The Iron Lady",
+      "actress": "Meryl Streep"
+    }
+  },
+  "support_acting": {
+    "nominations": [
+      {
+        "movie": "My Week with Marilyn",
+        "actor": "Kenneth Branagh"
+      },
+      {
+        "movie": "Moneyball",
+        "actor": "Jonah Hill"
+      },
+      {
+        "movie": "Warrior",
+        "actor": "Nick Nolte"
+      },
+      {
+        "movie": "Beginners",
+        "actor": "Christopher Plummer"
+      },
+      {
+        "movie": "Extremely Loud & Incredibly Close",
+        "actor": "Max von Sydow"
+      }
+    ],
+    "winner": {
+      "movie": "Beginners",
+      "actor": "Christopher Plummer"
+    }
+  },
+  "support_acting_female": {
+    "nominations": [
+      {
+        "movie": "The Artist",
+        "actress": "Bérénice Bejo"
+      },
+      {
+        "movie": "The Help",
+        "actress": "Jessica Chastain"
+      },
+      {
+        "movie": "Bridesmaids",
+        "actress": "Melissa McCarthy"
+      },
+      {
+        "movie": "Albert Nobbs",
+        "actress": "Janet McTeer"
+      },
+      {
+        "movie": "The Help",
+        "actress": "Octavia Spencer"
+      }
+    ],
+    "winner": {
+      "movie": "The Help",
+      "actress": "Octavia Spencer"
+    }
+  },
+  "best_picture": {
+    "nominations": [
+      {
+        "movie": "The Artist"
+      },
+      {
+        "movie": "The Descendants"
+      },
+      {
+        "movie": "Extremely Loud & Incredibly Close"
+      },
+      {
+        "movie": "The Help"
+      },
+      {
+        "movie": "Hugo"
+      },
+      {
+        "movie": "Midnight in Paris"
+      },
+      {
+        "movie": "Moneyball"
+      },
+      {
+        "movie": "The Tree of Life"
+      },
+      {
+        "movie": "War Horse"
+      }
+    ],
+    "winner": {
+      "movie": "The Artist"
+    }
+  },
+  "writing_adapted": {
+    "nominations": [
+      {
+        "movie": "The Descendants",
+        "writer": "Screenplay by Alexander Payne and Nat Faxon & Jim Rash"
+      },
+      {
+        "movie": "Hugo",
+        "writer": "Screenplay by John Logan"
+      },
+      {
+        "movie": "The Ides of March",
+        "writer": "Screenplay by George Clooney & Grant Heslov and Beau Willimon"
+      },
+      {
+        "movie": "Moneyball",
+        "writer": "Screenplay by Steven Zaillian and Aaron Sorkin; Story by Stan Chervin"
+      },
+      {
+        "movie": "Tinker Tailor Soldier Spy",
+        "writer": "Screenplay by Bridget O'Connor & Peter Straughan"
+      }
+    ],
+    "winner": {
+      "movie": "The Descendants",
+      "writer": "Screenplay by Alexander Payne and Nat Faxon & Jim Rash"
+    }
+  },
+  "writing_original": {
+    "nominations": [
+      {
+        "movie": "The Artist",
+        "writer": "Written by Michel Hazanavicius"
+      },
+      {
+        "movie": "Bridesmaids",
+        "writer": "Written by Annie Mumolo & Kristen Wiig"
+      },
+      {
+        "movie": "Margin Call",
+        "writer": "Written by J.C. Chandor"
+      },
+      {
+        "movie": "Midnight in Paris",
+        "writer": "Written by Woody Allen"
+      },
+      {
+        "movie": "A Separation",
+        "writer": "Written by Asghar Farhadi"
+      }
+    ],
+    "winner": {
+      "movie": "Midnight in Paris",
+      "writer": "Written by Woody Allen"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6264b1c5dc3142ac111be7bc"
+  },
+  "year": "2012",
+  "index": "(85th)",
+  "directing": {
+    "nominations": [
+      {
+        "movie": "Amour",
+        "director": "Michael Haneke"
+      },
+      {
+        "movie": "Beasts of the Southern Wild",
+        "director": "Benh Zeitlin"
+      },
+      {
+        "movie": "Life of Pi",
+        "director": "Ang Lee"
+      },
+      {
+        "movie": "Lincoln",
+        "director": "Steven Spielberg"
+      },
+      {
+        "movie": "Silver Linings Playbook",
+        "director": "David O. Russell"
+      }
+    ],
+    "winner": {
+      "movie": "Life of Pi",
+      "director": "Ang Lee"
+    }
+  },
+  "acting": {
+    "nominations": [
+      {
+        "movie": "Silver Linings Playbook",
+        "actor": "Bradley Cooper"
+      },
+      {
+        "movie": "Lincoln",
+        "actor": "Daniel Day-Lewis"
+      },
+      {
+        "movie": "Les Misérables",
+        "actor": "Hugh Jackman"
+      },
+      {
+        "movie": "The Master",
+        "actor": "Joaquin Phoenix"
+      },
+      {
+        "movie": "Flight",
+        "actor": "Denzel Washington"
+      }
+    ],
+    "winner": {
+      "movie": "Lincoln",
+      "actor": "Daniel Day-Lewis"
+    }
+  },
+  "acting_female": {
+    "nominations": [
+      {
+        "movie": "Zero Dark Thirty",
+        "actress": "Jessica Chastain"
+      },
+      {
+        "movie": "Silver Linings Playbook",
+        "actress": "Jennifer Lawrence"
+      },
+      {
+        "movie": "Amour",
+        "actress": "Emmanuelle Riva"
+      },
+      {
+        "movie": "Beasts of the Southern Wild",
+        "actress": "Quvenzhané Wallis"
+      },
+      {
+        "movie": "The Impossible",
+        "actress": "Naomi Watts"
+      }
+    ],
+    "winner": {
+      "movie": "Silver Linings Playbook",
+      "actress": "Jennifer Lawrence"
+    }
+  },
+  "support_acting": {
+    "nominations": [
+      {
+        "movie": "Argo",
+        "actor": "Alan Arkin"
+      },
+      {
+        "movie": "Silver Linings Playbook",
+        "actor": "Robert De Niro"
+      },
+      {
+        "movie": "The Master",
+        "actor": "Philip Seymour Hoffman"
+      },
+      {
+        "movie": "Lincoln",
+        "actor": "Tommy Lee Jones"
+      },
+      {
+        "movie": "Django Unchained",
+        "actor": "Christoph Waltz"
+      }
+    ],
+    "winner": {
+      "movie": "Django Unchained",
+      "actor": "Christoph Waltz"
+    }
+  },
+  "support_acting_female": {
+    "nominations": [
+      {
+        "movie": "The Master",
+        "actress": "Amy Adams"
+      },
+      {
+        "movie": "Lincoln",
+        "actress": "Sally Field"
+      },
+      {
+        "movie": "Les Misérables",
+        "actress": "Anne Hathaway"
+      },
+      {
+        "movie": "The Sessions",
+        "actress": "Helen Hunt"
+      },
+      {
+        "movie": "Silver Linings Playbook",
+        "actress": "Jacki Weaver"
+      }
+    ],
+    "winner": {
+      "movie": "Les Misérables",
+      "actress": "Anne Hathaway"
+    }
+  },
+  "best_picture": {
+    "nominations": [
+      {
+        "movie": "Amour"
+      },
+      {
+        "movie": "Argo"
+      },
+      {
+        "movie": "Beasts of the Southern Wild"
+      },
+      {
+        "movie": "Django Unchained"
+      },
+      {
+        "movie": "Les Misérables"
+      },
+      {
+        "movie": "Life of Pi"
+      },
+      {
+        "movie": "Lincoln"
+      },
+      {
+        "movie": "Silver Linings Playbook"
+      },
+      {
+        "movie": "Zero Dark Thirty"
+      }
+    ],
+    "winner": {
+      "movie": "Argo"
+    }
+  },
+  "writing_adapted": {
+    "nominations": [
+      {
+        "movie": "Argo",
+        "writer": "Screenplay by Chris Terrio"
+      },
+      {
+        "movie": "Beasts of the Southern Wild",
+        "writer": "Screenplay by Lucy Alibar & Benh Zeitlin"
+      },
+      {
+        "movie": "Life of Pi",
+        "writer": "Screenplay by David Magee"
+      },
+      {
+        "movie": "Lincoln",
+        "writer": "Screenplay by Tony Kushner"
+      },
+      {
+        "movie": "Silver Linings Playbook",
+        "writer": "Screenplay by David O. Russell"
+      }
+    ],
+    "winner": {
+      "movie": "Argo",
+      "writer": "Screenplay by Chris Terrio"
+    }
+  },
+  "writing_original": {
+    "nominations": [
+      {
+        "movie": "Amour",
+        "writer": "Written by Michael Haneke"
+      },
+      {
+        "movie": "Django Unchained",
+        "writer": "Written by Quentin Tarantino"
+      },
+      {
+        "movie": "Flight",
+        "writer": "Written by John Gatins"
+      },
+      {
+        "movie": "Moonrise Kingdom",
+        "writer": "Written by Wes Anderson & Roman Coppola"
+      },
+      {
+        "movie": "Zero Dark Thirty",
+        "writer": "Written by Mark Boal"
+      }
+    ],
+    "winner": {
+      "movie": "Django Unchained",
+      "writer": "Written by Quentin Tarantino"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6264b1c5dc3142ac111be7bd"
+  },
+  "year": "2013",
+  "index": "(86th)",
+  "directing": {
+    "nominations": [
+      {
+        "movie": "American Hustle",
+        "director": "David O. Russell"
+      },
+      {
+        "movie": "Gravity",
+        "director": "Alfonso Cuarón"
+      },
+      {
+        "movie": "Nebraska",
+        "director": "Alexander Payne"
+      },
+      {
+        "movie": "12 Years a Slave",
+        "director": "Steve McQueen"
+      },
+      {
+        "movie": "The Wolf of Wall Street",
+        "director": "Martin Scorsese"
+      }
+    ],
+    "winner": {
+      "movie": "Gravity",
+      "director": "Alfonso Cuarón"
+    }
+  },
+  "acting": {
+    "nominations": [
+      {
+        "movie": "American Hustle",
+        "actor": "Christian Bale"
+      },
+      {
+        "movie": "Nebraska",
+        "actor": "Bruce Dern"
+      },
+      {
+        "movie": "The Wolf of Wall Street",
+        "actor": "Leonardo DiCaprio"
+      },
+      {
+        "movie": "12 Years a Slave",
+        "actor": "Chiwetel Ejiofor"
+      },
+      {
+        "movie": "Dallas Buyers Club",
+        "actor": "Matthew McConaughey"
+      }
+    ],
+    "winner": {
+      "movie": "Dallas Buyers Club",
+      "actor": "Matthew McConaughey"
+    }
+  },
+  "acting_female": {
+    "nominations": [
+      {
+        "movie": "American Hustle",
+        "actress": "Amy Adams"
+      },
+      {
+        "movie": "Blue Jasmine",
+        "actress": "Cate Blanchett"
+      },
+      {
+        "movie": "Gravity",
+        "actress": "Sandra Bullock"
+      },
+      {
+        "movie": "Philomena",
+        "actress": "Judi Dench"
+      },
+      {
+        "movie": "August: Osage County",
+        "actress": "Meryl Streep"
+      }
+    ],
+    "winner": {
+      "movie": "Blue Jasmine",
+      "actress": "Cate Blanchett"
+    }
+  },
+  "support_acting": {
+    "nominations": [
+      {
+        "movie": "Captain Phillips",
+        "actor": "Barkhad Abdi"
+      },
+      {
+        "movie": "American Hustle",
+        "actor": "Bradley Cooper"
+      },
+      {
+        "movie": "12 Years a Slave",
+        "actor": "Michael Fassbender"
+      },
+      {
+        "movie": "The Wolf of Wall Street",
+        "actor": "Jonah Hill"
+      },
+      {
+        "movie": "Dallas Buyers Club",
+        "actor": "Jared Leto"
+      }
+    ],
+    "winner": {
+      "movie": "Dallas Buyers Club",
+      "actor": "Jared Leto"
+    }
+  },
+  "support_acting_female": {
+    "nominations": [
+      {
+        "movie": "Blue Jasmine",
+        "actress": "Sally Hawkins"
+      },
+      {
+        "movie": "American Hustle",
+        "actress": "Jennifer Lawrence"
+      },
+      {
+        "movie": "12 Years a Slave",
+        "actress": "Lupita Nyong'o"
+      },
+      {
+        "movie": "August: Osage County",
+        "actress": "Julia Roberts"
+      },
+      {
+        "movie": "Nebraska",
+        "actress": "June Squibb"
+      }
+    ],
+    "winner": {
+      "movie": "12 Years a Slave",
+      "actress": "Lupita Nyong'o"
+    }
+  },
+  "best_picture": {
+    "nominations": [
+      {
+        "movie": "American Hustle"
+      },
+      {
+        "movie": "Captain Phillips"
+      },
+      {
+        "movie": "Dallas Buyers Club"
+      },
+      {
+        "movie": "Gravity"
+      },
+      {
+        "movie": "Her"
+      },
+      {
+        "movie": "Nebraska"
+      },
+      {
+        "movie": "Philomena"
+      },
+      {
+        "movie": "12 Years a Slave"
+      },
+      {
+        "movie": "The Wolf of Wall Street"
+      }
+    ],
+    "winner": {
+      "movie": "12 Years a Slave"
+    }
+  },
+  "writing_adapted": {
+    "nominations": [
+      {
+        "movie": "Before Midnight",
+        "writer": "Written by Richard Linklater, Julie Delpy, Ethan Hawke"
+      },
+      {
+        "movie": "Captain Phillips",
+        "writer": "Screenplay by Billy Ray"
+      },
+      {
+        "movie": "Philomena",
+        "writer": "Screenplay by Steve Coogan and Jeff Pope"
+      },
+      {
+        "movie": "12 Years a Slave",
+        "writer": "Screenplay by John Ridley"
+      },
+      {
+        "movie": "The Wolf of Wall Street",
+        "writer": "Screenplay by Terence Winter"
+      }
+    ],
+    "winner": {
+      "movie": "12 Years a Slave",
+      "writer": "Screenplay by John Ridley"
+    }
+  },
+  "writing_original": {
+    "nominations": [
+      {
+        "movie": "American Hustle",
+        "writer": "Written by Eric Warren Singer and David O. Russell"
+      },
+      {
+        "movie": "Blue Jasmine",
+        "writer": "Written by Woody Allen"
+      },
+      {
+        "movie": "Dallas Buyers Club",
+        "writer": "Written by Craig Borten & Melisa Wallack"
+      },
+      {
+        "movie": "Her",
+        "writer": "Written by Spike Jonze"
+      },
+      {
+        "movie": "Nebraska",
+        "writer": "Written by Bob Nelson"
+      }
+    ],
+    "winner": {
+      "movie": "Her",
+      "writer": "Written by Spike Jonze"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6264b1c5dc3142ac111be7be"
+  },
+  "year": "2014",
+  "index": "(87th)",
+  "directing": {
+    "nominations": [
+      {
+        "movie": "Birdman or (The Unexpected Virtue of Ignorance)",
+        "director": "Alejandro G. Iñárritu"
+      },
+      {
+        "movie": "Boyhood",
+        "director": "Richard Linklater"
+      },
+      {
+        "movie": "Foxcatcher",
+        "director": "Bennett Miller"
+      },
+      {
+        "movie": "The Grand Budapest Hotel",
+        "director": "Wes Anderson"
+      },
+      {
+        "movie": "The Imitation Game",
+        "director": "Morten Tyldum"
+      }
+    ],
+    "winner": {
+      "movie": "Birdman or (The Unexpected Virtue of Ignorance)",
+      "director": "Alejandro G. Iñárritu"
+    }
+  },
+  "acting": {
+    "nominations": [
+      {
+        "movie": "Foxcatcher",
+        "actor": "Steve Carell"
+      },
+      {
+        "movie": "American Sniper",
+        "actor": "Bradley Cooper"
+      },
+      {
+        "movie": "The Imitation Game",
+        "actor": "Benedict Cumberbatch"
+      },
+      {
+        "movie": "Birdman or (The Unexpected Virtue of Ignorance)",
+        "actor": "Michael Keaton"
+      },
+      {
+        "movie": "The Theory of Everything",
+        "actor": "Eddie Redmayne"
+      }
+    ],
+    "winner": {
+      "movie": "The Theory of Everything",
+      "actor": "Eddie Redmayne"
+    }
+  },
+  "acting_female": {
+    "nominations": [
+      {
+        "movie": "Two Days, One Night",
+        "actress": "Marion Cotillard"
+      },
+      {
+        "movie": "The Theory of Everything",
+        "actress": "Felicity Jones"
+      },
+      {
+        "movie": "Still Alice",
+        "actress": "Julianne Moore"
+      },
+      {
+        "movie": "Gone Girl",
+        "actress": "Rosamund Pike"
+      },
+      {
+        "movie": "Wild",
+        "actress": "Reese Witherspoon"
+      }
+    ],
+    "winner": {
+      "movie": "Still Alice",
+      "actress": "Julianne Moore"
+    }
+  },
+  "support_acting": {
+    "nominations": [
+      {
+        "movie": "The Judge",
+        "actor": "Robert Duvall"
+      },
+      {
+        "movie": "Boyhood",
+        "actor": "Ethan Hawke"
+      },
+      {
+        "movie": "Birdman or (The Unexpected Virtue of Ignorance)",
+        "actor": "Edward Norton"
+      },
+      {
+        "movie": "Foxcatcher",
+        "actor": "Mark Ruffalo"
+      },
+      {
+        "movie": "Whiplash",
+        "actor": "J.K. Simmons"
+      }
+    ],
+    "winner": {
+      "movie": "Whiplash",
+      "actor": "J.K. Simmons"
+    }
+  },
+  "support_acting_female": {
+    "nominations": [
+      {
+        "movie": "Boyhood",
+        "actress": "Patricia Arquette"
+      },
+      {
+        "movie": "Wild",
+        "actress": "Laura Dern"
+      },
+      {
+        "movie": "The Imitation Game",
+        "actress": "Keira Knightley"
+      },
+      {
+        "movie": "Birdman or (The Unexpected Virtue of Ignorance)",
+        "actress": "Emma Stone"
+      },
+      {
+        "movie": "Into the Woods",
+        "actress": "Meryl Streep"
+      }
+    ],
+    "winner": {
+      "movie": "Boyhood",
+      "actress": "Patricia Arquette"
+    }
+  },
+  "best_picture": {
+    "nominations": [
+      {
+        "movie": "American Sniper"
+      },
+      {
+        "movie": "Birdman or (The Unexpected Virtue of Ignorance)"
+      },
+      {
+        "movie": "Boyhood"
+      },
+      {
+        "movie": "The Grand Budapest Hotel"
+      },
+      {
+        "movie": "The Imitation Game"
+      },
+      {
+        "movie": "Selma"
+      },
+      {
+        "movie": "The Theory of Everything"
+      },
+      {
+        "movie": "Whiplash"
+      }
+    ],
+    "winner": {
+      "movie": "Birdman or (The Unexpected Virtue of Ignorance)"
+    }
+  },
+  "writing_adapted": {
+    "nominations": [
+      {
+        "movie": "American Sniper",
+        "writer": "Written by Jason Hall"
+      },
+      {
+        "movie": "The Imitation Game",
+        "writer": "Written by Graham Moore"
+      },
+      {
+        "movie": "Inherent Vice",
+        "writer": "Written for the screen by Paul Thomas Anderson"
+      },
+      {
+        "movie": "The Theory of Everything",
+        "writer": "Screenplay by Anthony McCarten"
+      },
+      {
+        "movie": "Whiplash",
+        "writer": "Written by Damien Chazelle"
+      }
+    ],
+    "winner": {
+      "movie": "The Imitation Game",
+      "writer": "Written by Graham Moore"
+    }
+  },
+  "writing_original": {
+    "nominations": [
+      {
+        "movie": "Birdman or (The Unexpected Virtue of Ignorance)",
+        "writer": "Written by Alejandro G. Iñárritu, Nicolás Giacobone, Alexander Dinelaris, Jr. & Armando Bo"
+      },
+      {
+        "movie": "Boyhood",
+        "writer": "Written by Richard Linklater"
+      },
+      {
+        "movie": "Foxcatcher",
+        "writer": "Written by E. Max Frye and Dan Futterman"
+      },
+      {
+        "movie": "The Grand Budapest Hotel",
+        "writer": "Screenplay by Wes Anderson; Story by Wes Anderson & Hugo Guinness"
+      },
+      {
+        "movie": "Nightcrawler",
+        "writer": "Written by Dan Gilroy"
+      }
+    ],
+    "winner": {
+      "movie": "Birdman or (The Unexpected Virtue of Ignorance)",
+      "writer": "Written by Alejandro G. Iñárritu, Nicolás Giacobone, Alexander Dinelaris, Jr. & Armando Bo"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6264b1c5dc3142ac111be7bf"
+  },
+  "year": "2015",
+  "index": "(88th)",
+  "directing": {
+    "nominations": [
+      {
+        "movie": "The Big Short",
+        "director": "Adam McKay"
+      },
+      {
+        "movie": "Mad Max: Fury Road",
+        "director": "George Miller"
+      },
+      {
+        "movie": "The Revenant",
+        "director": "Alejandro G. Iñárritu"
+      },
+      {
+        "movie": "Room",
+        "director": "Lenny Abrahamson"
+      },
+      {
+        "movie": "Spotlight",
+        "director": "Tom McCarthy"
+      }
+    ],
+    "winner": {
+      "movie": "The Revenant",
+      "director": "Alejandro G. Iñárritu"
+    }
+  },
+  "acting": {
+    "nominations": [
+      {
+        "movie": "Trumbo",
+        "actor": "Bryan Cranston"
+      },
+      {
+        "movie": "The Martian",
+        "actor": "Matt Damon"
+      },
+      {
+        "movie": "The Revenant",
+        "actor": "Leonardo DiCaprio"
+      },
+      {
+        "movie": "Steve Jobs",
+        "actor": "Michael Fassbender"
+      },
+      {
+        "movie": "The Danish Girl",
+        "actor": "Eddie Redmayne"
+      }
+    ],
+    "winner": {
+      "movie": "The Revenant",
+      "actor": "Leonardo DiCaprio"
+    }
+  },
+  "acting_female": {
+    "nominations": [
+      {
+        "movie": "Carol",
+        "actress": "Cate Blanchett"
+      },
+      {
+        "movie": "Room",
+        "actress": "Brie Larson"
+      },
+      {
+        "movie": "Joy",
+        "actress": "Jennifer Lawrence"
+      },
+      {
+        "movie": "45 Years",
+        "actress": "Charlotte Rampling"
+      },
+      {
+        "movie": "Brooklyn",
+        "actress": "Saoirse Ronan"
+      }
+    ],
+    "winner": {
+      "movie": "Room",
+      "actress": "Brie Larson"
+    }
+  },
+  "support_acting": {
+    "nominations": [
+      {
+        "movie": "The Big Short",
+        "actor": "Christian Bale"
+      },
+      {
+        "movie": "The Revenant",
+        "actor": "Tom Hardy"
+      },
+      {
+        "movie": "Spotlight",
+        "actor": "Mark Ruffalo"
+      },
+      {
+        "movie": "Bridge of Spies",
+        "actor": "Mark Rylance"
+      },
+      {
+        "movie": "Creed",
+        "actor": "Sylvester Stallone"
+      }
+    ],
+    "winner": {
+      "movie": "Bridge of Spies",
+      "actor": "Mark Rylance"
+    }
+  },
+  "support_acting_female": {
+    "nominations": [
+      {
+        "movie": "The Hateful Eight",
+        "actress": "Jennifer Jason Leigh"
+      },
+      {
+        "movie": "Carol",
+        "actress": "Rooney Mara"
+      },
+      {
+        "movie": "Spotlight",
+        "actress": "Rachel McAdams"
+      },
+      {
+        "movie": "The Danish Girl",
+        "actress": "Alicia Vikander"
+      },
+      {
+        "movie": "Steve Jobs",
+        "actress": "Kate Winslet"
+      }
+    ],
+    "winner": {
+      "movie": "The Danish Girl",
+      "actress": "Alicia Vikander"
+    }
+  },
+  "best_picture": {
+    "nominations": [
+      {
+        "movie": "The Big Short"
+      },
+      {
+        "movie": "Bridge of Spies"
+      },
+      {
+        "movie": "Brooklyn"
+      },
+      {
+        "movie": "Mad Max: Fury Road"
+      },
+      {
+        "movie": "The Martian"
+      },
+      {
+        "movie": "The Revenant"
+      },
+      {
+        "movie": "Room"
+      },
+      {
+        "movie": "Spotlight"
+      }
+    ],
+    "winner": {
+      "movie": "Spotlight"
+    }
+  },
+  "writing_adapted": {
+    "nominations": [
+      {
+        "movie": "The Big Short",
+        "writer": "Screenplay by Charles Randolph and Adam McKay"
+      },
+      {
+        "movie": "Brooklyn",
+        "writer": "Screenplay by Nick Hornby"
+      },
+      {
+        "movie": "Carol",
+        "writer": "Screenplay by Phyllis Nagy"
+      },
+      {
+        "movie": "The Martian",
+        "writer": "Screenplay by Drew Goddard"
+      },
+      {
+        "movie": "Room",
+        "writer": "Screenplay by Emma Donoghue"
+      }
+    ],
+    "winner": {
+      "movie": "The Big Short",
+      "writer": "Screenplay by Charles Randolph and Adam McKay"
+    }
+  },
+  "writing_original": {
+    "nominations": [
+      {
+        "movie": "Bridge of Spies",
+        "writer": "Written by Matt Charman and Ethan Coen & Joel Coen"
+      },
+      {
+        "movie": "Ex Machina",
+        "writer": "Written by Alex Garland"
+      },
+      {
+        "movie": "Inside Out",
+        "writer": "Screenplay by Pete Docter, Meg LeFauve, Josh Cooley; Original story by Pete Docter, Ronnie del Carmen"
+      },
+      {
+        "movie": "Spotlight",
+        "writer": "Written by Josh Singer & Tom McCarthy"
+      },
+      {
+        "movie": "Straight Outta Compton",
+        "writer": "Screenplay by Jonathan Herman and Andrea Berloff; Story by S. Leigh Savidge & Alan Wenkus and Andrea Berloff"
+      }
+    ],
+    "winner": {
+      "movie": "Spotlight",
+      "writer": "Written by Josh Singer & Tom McCarthy"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6264b1c5dc3142ac111be7c0"
+  },
+  "year": "2016",
+  "index": "(89th)",
+  "directing": {
+    "nominations": [
+      {
+        "movie": "Arrival",
+        "director": "Denis Villeneuve"
+      },
+      {
+        "movie": "Hacksaw Ridge",
+        "director": "Mel Gibson"
+      },
+      {
+        "movie": "La La Land",
+        "director": "Damien Chazelle"
+      },
+      {
+        "movie": "Manchester by the Sea",
+        "director": "Kenneth Lonergan"
+      },
+      {
+        "movie": "Moonlight",
+        "director": "Barry Jenkins"
+      }
+    ],
+    "winner": {
+      "movie": "La La Land",
+      "director": "Damien Chazelle"
+    }
+  },
+  "acting": {
+    "nominations": [
+      {
+        "movie": "Manchester by the Sea",
+        "actor": "Casey Affleck"
+      },
+      {
+        "movie": "Hacksaw Ridge",
+        "actor": "Andrew Garfield"
+      },
+      {
+        "movie": "La La Land",
+        "actor": "Ryan Gosling"
+      },
+      {
+        "movie": "Captain Fantastic",
+        "actor": "Viggo Mortensen"
+      },
+      {
+        "movie": "Fences",
+        "actor": "Denzel Washington"
+      }
+    ],
+    "winner": {
+      "movie": "Manchester by the Sea",
+      "actor": "Casey Affleck"
+    }
+  },
+  "acting_female": {
+    "nominations": [
+      {
+        "movie": "Elle",
+        "actress": "Isabelle Huppert"
+      },
+      {
+        "movie": "Loving",
+        "actress": "Ruth Negga"
+      },
+      {
+        "movie": "Jackie",
+        "actress": "Natalie Portman"
+      },
+      {
+        "movie": "La La Land",
+        "actress": "Emma Stone"
+      },
+      {
+        "movie": "Florence Foster Jenkins",
+        "actress": "Meryl Streep"
+      }
+    ],
+    "winner": {
+      "movie": "La La Land",
+      "actress": "Emma Stone"
+    }
+  },
+  "support_acting": {
+    "nominations": [
+      {
+        "movie": "Moonlight",
+        "actor": "Mahershala Ali"
+      },
+      {
+        "movie": "Hell or High Water",
+        "actor": "Jeff Bridges"
+      },
+      {
+        "movie": "Manchester by the Sea",
+        "actor": "Lucas Hedges"
+      },
+      {
+        "movie": "Lion",
+        "actor": "Dev Patel"
+      },
+      {
+        "movie": "Nocturnal Animals",
+        "actor": "Michael Shannon"
+      }
+    ],
+    "winner": {
+      "movie": "Moonlight",
+      "actor": "Mahershala Ali"
+    }
+  },
+  "support_acting_female": {
+    "nominations": [
+      {
+        "movie": "Fences",
+        "actress": "Viola Davis"
+      },
+      {
+        "movie": "Moonlight",
+        "actress": "Naomie Harris"
+      },
+      {
+        "movie": "Lion",
+        "actress": "Nicole Kidman"
+      },
+      {
+        "movie": "Hidden Figures",
+        "actress": "Octavia Spencer"
+      },
+      {
+        "movie": "Manchester by the Sea",
+        "actress": "Michelle Williams"
+      }
+    ],
+    "winner": {
+      "movie": "Fences",
+      "actress": "Viola Davis"
+    }
+  },
+  "best_picture": {
+    "nominations": [
+      {
+        "movie": "Arrival"
+      },
+      {
+        "movie": "Fences"
+      },
+      {
+        "movie": "Hacksaw Ridge"
+      },
+      {
+        "movie": "Hell or High Water"
+      },
+      {
+        "movie": "Hidden Figures"
+      },
+      {
+        "movie": "La La Land"
+      },
+      {
+        "movie": "Lion"
+      },
+      {
+        "movie": "Manchester by the Sea"
+      },
+      {
+        "movie": "Moonlight"
+      }
+    ],
+    "winner": {
+      "movie": "Moonlight"
+    }
+  },
+  "writing_adapted": {
+    "nominations": [
+      {
+        "movie": "Arrival",
+        "writer": "Screenplay by Eric Heisserer"
+      },
+      {
+        "movie": "Fences",
+        "writer": "Screenplay by August Wilson"
+      },
+      {
+        "movie": "Hidden Figures",
+        "writer": "Screenplay by Allison Schroeder and Theodore Melfi"
+      },
+      {
+        "movie": "Lion",
+        "writer": "Screenplay by Luke Davies"
+      },
+      {
+        "movie": "Moonlight",
+        "writer": "Screenplay by Barry Jenkins; Story by Tarell Alvin McCraney"
+      }
+    ],
+    "winner": {
+      "movie": "Moonlight",
+      "writer": "Screenplay by Barry Jenkins; Story by Tarell Alvin McCraney"
+    }
+  },
+  "writing_original": {
+    "nominations": [
+      {
+        "movie": "Hell or High Water",
+        "writer": "Written by Taylor Sheridan"
+      },
+      {
+        "movie": "La La Land",
+        "writer": "Written by Damien Chazelle"
+      },
+      {
+        "movie": "The Lobster",
+        "writer": "Written by Yorgos Lanthimos, Efthimis Filippou"
+      },
+      {
+        "movie": "Manchester by the Sea",
+        "writer": "Written by Kenneth Lonergan"
+      },
+      {
+        "movie": "20th Century Women",
+        "writer": "Written by Mike Mills"
+      }
+    ],
+    "winner": {
+      "movie": "Manchester by the Sea",
+      "writer": "Written by Kenneth Lonergan"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6264b1c5dc3142ac111be7c1"
+  },
+  "year": "2017",
+  "index": "(90th)",
+  "directing": {
+    "nominations": [
+      {
+        "movie": "Dunkirk",
+        "director": "Christopher Nolan"
+      },
+      {
+        "movie": "Get Out",
+        "director": "Jordan Peele"
+      },
+      {
+        "movie": "Lady Bird",
+        "director": "Greta Gerwig"
+      },
+      {
+        "movie": "Phantom Thread",
+        "director": "Paul Thomas Anderson"
+      },
+      {
+        "movie": "The Shape of Water",
+        "director": "Guillermo del Toro"
+      }
+    ],
+    "winner": {
+      "movie": "The Shape of Water",
+      "director": "Guillermo del Toro"
+    }
+  },
+  "acting": {
+    "nominations": [
+      {
+        "movie": "Call Me by Your Name",
+        "actor": "Timothée Chalamet"
+      },
+      {
+        "movie": "Phantom Thread",
+        "actor": "Daniel Day-Lewis"
+      },
+      {
+        "movie": "Get Out",
+        "actor": "Daniel Kaluuya"
+      },
+      {
+        "movie": "Darkest Hour",
+        "actor": "Gary Oldman"
+      },
+      {
+        "movie": "Roman J. Israel, Esq.",
+        "actor": "Denzel Washington"
+      }
+    ],
+    "winner": {
+      "movie": "Darkest Hour",
+      "actor": "Gary Oldman"
+    }
+  },
+  "acting_female": {
+    "nominations": [
+      {
+        "movie": "The Shape of Water",
+        "actress": "Sally Hawkins"
+      },
+      {
+        "movie": "Three Billboards outside Ebbing, Missouri",
+        "actress": "Frances McDormand"
+      },
+      {
+        "movie": "I, Tonya",
+        "actress": "Margot Robbie"
+      },
+      {
+        "movie": "Lady Bird",
+        "actress": "Saoirse Ronan"
+      },
+      {
+        "movie": "The Post",
+        "actress": "Meryl Streep"
+      }
+    ],
+    "winner": {
+      "movie": "Three Billboards outside Ebbing, Missouri",
+      "actress": "Frances McDormand"
+    }
+  },
+  "support_acting": {
+    "nominations": [
+      {
+        "movie": "The Florida Project",
+        "actor": "Willem Dafoe"
+      },
+      {
+        "movie": "Three Billboards outside Ebbing, Missouri",
+        "actor": "Woody Harrelson"
+      },
+      {
+        "movie": "The Shape of Water",
+        "actor": "Richard Jenkins"
+      },
+      {
+        "movie": "All the Money in the World",
+        "actor": "Christopher Plummer"
+      },
+      {
+        "movie": "Three Billboards outside Ebbing, Missouri",
+        "actor": "Sam Rockwell"
+      }
+    ],
+    "winner": {
+      "movie": "Three Billboards outside Ebbing, Missouri",
+      "actor": "Sam Rockwell"
+    }
+  },
+  "support_acting_female": {
+    "nominations": [
+      {
+        "movie": "Mudbound",
+        "actress": "Mary J. Blige"
+      },
+      {
+        "movie": "I, Tonya",
+        "actress": "Allison Janney"
+      },
+      {
+        "movie": "Phantom Thread",
+        "actress": "Lesley Manville"
+      },
+      {
+        "movie": "Lady Bird",
+        "actress": "Laurie Metcalf"
+      },
+      {
+        "movie": "The Shape of Water",
+        "actress": "Octavia Spencer"
+      }
+    ],
+    "winner": {
+      "movie": "I, Tonya",
+      "actress": "Allison Janney"
+    }
+  },
+  "best_picture": {
+    "nominations": [
+      {
+        "movie": "Call Me by Your Name"
+      },
+      {
+        "movie": "Darkest Hour"
+      },
+      {
+        "movie": "Dunkirk"
+      },
+      {
+        "movie": "Get Out"
+      },
+      {
+        "movie": "Lady Bird"
+      },
+      {
+        "movie": "Phantom Thread"
+      },
+      {
+        "movie": "The Post"
+      },
+      {
+        "movie": "The Shape of Water"
+      },
+      {
+        "movie": "Three Billboards outside Ebbing, Missouri"
+      }
+    ],
+    "winner": {
+      "movie": "The Shape of Water"
+    }
+  },
+  "writing_adapted": {
+    "nominations": [
+      {
+        "movie": "Call Me by Your Name",
+        "writer": "Screenplay by James Ivory"
+      },
+      {
+        "movie": "The Disaster Artist",
+        "writer": "Screenplay by Scott Neustadter & Michael H. Weber"
+      },
+      {
+        "movie": "Logan",
+        "writer": "Screenplay by Scott Frank & James Mangold and Michael Green; Story by James Mangold"
+      },
+      {
+        "movie": "Molly's Game",
+        "writer": "Written for the screen by Aaron Sorkin"
+      },
+      {
+        "movie": "Mudbound",
+        "writer": "Screenplay by Virgil Williams and Dee Rees"
+      }
+    ],
+    "winner": {
+      "movie": "Call Me by Your Name",
+      "writer": "Screenplay by James Ivory"
+    }
+  },
+  "writing_original": {
+    "nominations": [
+      {
+        "movie": "The Big Sick",
+        "writer": "Written by Emily V. Gordon & Kumail Nanjiani"
+      },
+      {
+        "movie": "Get Out",
+        "writer": "Written by Jordan Peele"
+      },
+      {
+        "movie": "Lady Bird",
+        "writer": "Written by Greta Gerwig"
+      },
+      {
+        "movie": "The Shape of Water",
+        "writer": "Screenplay by Guillermo del Toro & Vanessa Taylor; Story by Guillermo del Toro"
+      },
+      {
+        "movie": "Three Billboards outside Ebbing, Missouri",
+        "writer": "Written by Martin McDonagh"
+      }
+    ],
+    "winner": {
+      "movie": "Get Out",
+      "writer": "Written by Jordan Peele"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6264b1c5dc3142ac111be7c2"
+  },
+  "year": "2018",
+  "index": "(91st)",
+  "directing": {
+    "nominations": [
+      {
+        "movie": "BlacKkKlansman",
+        "director": "Spike Lee"
+      },
+      {
+        "movie": "Cold War",
+        "director": "Pawel Pawlikowski"
+      },
+      {
+        "movie": "The Favourite",
+        "director": "Yorgos Lanthimos"
+      },
+      {
+        "movie": "Roma",
+        "director": "Alfonso Cuarón"
+      },
+      {
+        "movie": "Vice",
+        "director": "Adam McKay"
+      }
+    ],
+    "winner": {
+      "movie": "Roma",
+      "director": "Alfonso Cuarón"
+    }
+  },
+  "acting": {
+    "nominations": [
+      {
+        "movie": "Vice",
+        "actor": "Christian Bale"
+      },
+      {
+        "movie": "A Star Is Born",
+        "actor": "Bradley Cooper"
+      },
+      {
+        "movie": "At Eternity's Gate",
+        "actor": "Willem Dafoe"
+      },
+      {
+        "movie": "Bohemian Rhapsody",
+        "actor": "Rami Malek"
+      },
+      {
+        "movie": "Green Book",
+        "actor": "Viggo Mortensen"
+      }
+    ],
+    "winner": {
+      "movie": "Bohemian Rhapsody",
+      "actor": "Rami Malek"
+    }
+  },
+  "acting_female": {
+    "nominations": [
+      {
+        "movie": "Roma",
+        "actress": "Yalitza Aparicio"
+      },
+      {
+        "movie": "The Wife",
+        "actress": "Glenn Close"
+      },
+      {
+        "movie": "The Favourite",
+        "actress": "Olivia Colman"
+      },
+      {
+        "movie": "A Star Is Born",
+        "actress": "Lady Gaga"
+      },
+      {
+        "movie": "Can You Ever Forgive Me?",
+        "actress": "Melissa McCarthy"
+      }
+    ],
+    "winner": {
+      "movie": "The Favourite",
+      "actress": "Olivia Colman"
+    }
+  },
+  "support_acting": {
+    "nominations": [
+      {
+        "movie": "Green Book",
+        "actor": "Mahershala Ali"
+      },
+      {
+        "movie": "BlacKkKlansman",
+        "actor": "Adam Driver"
+      },
+      {
+        "movie": "A Star Is Born",
+        "actor": "Sam Elliott"
+      },
+      {
+        "movie": "Can You Ever Forgive Me?",
+        "actor": "Richard E. Grant"
+      },
+      {
+        "movie": "Vice",
+        "actor": "Sam Rockwell"
+      }
+    ],
+    "winner": {
+      "movie": "Green Book",
+      "actor": "Mahershala Ali"
+    }
+  },
+  "support_acting_female": {
+    "nominations": [
+      {
+        "movie": "Vice",
+        "actress": "Amy Adams"
+      },
+      {
+        "movie": "Roma",
+        "actress": "Marina de Tavira"
+      },
+      {
+        "movie": "If Beale Street Could Talk",
+        "actress": "Regina King"
+      },
+      {
+        "movie": "The Favourite",
+        "actress": "Emma Stone"
+      },
+      {
+        "movie": "The Favourite",
+        "actress": "Rachel Weisz"
+      }
+    ],
+    "winner": {
+      "movie": "If Beale Street Could Talk",
+      "actress": "Regina King"
+    }
+  },
+  "best_picture": {
+    "nominations": [
+      {
+        "movie": "Black Panther"
+      },
+      {
+        "movie": "BlacKkKlansman"
+      },
+      {
+        "movie": "Bohemian Rhapsody"
+      },
+      {
+        "movie": "The Favourite"
+      },
+      {
+        "movie": "Green Book"
+      },
+      {
+        "movie": "Roma"
+      },
+      {
+        "movie": "A Star Is Born"
+      },
+      {
+        "movie": "Vice"
+      }
+    ],
+    "winner": {
+      "movie": "Green Book"
+    }
+  },
+  "writing_adapted": {
+    "nominations": [
+      {
+        "movie": "The Ballad of Buster Scruggs",
+        "writer": "Written by Joel Coen & Ethan Coen"
+      },
+      {
+        "movie": "BlacKkKlansman",
+        "writer": "Written by Charlie Wachtel & David Rabinowitz and Kevin Willmott & Spike Lee"
+      },
+      {
+        "movie": "Can You Ever Forgive Me?",
+        "writer": "Screenplay by Nicole Holofcener and Jeff Whitty"
+      },
+      {
+        "movie": "If Beale Street Could Talk",
+        "writer": "Written for the screen by Barry Jenkins"
+      },
+      {
+        "movie": "A Star Is Born",
+        "writer": "Screenplay by Eric Roth and Bradley Cooper & Will Fetters"
+      }
+    ],
+    "winner": {
+      "movie": "BlacKkKlansman",
+      "writer": "Written by Charlie Wachtel & David Rabinowitz and Kevin Willmott & Spike Lee"
+    }
+  },
+  "writing_original": {
+    "nominations": [
+      {
+        "movie": "The Favourite",
+        "writer": "Written by Deborah Davis and Tony McNamara"
+      },
+      {
+        "movie": "First Reformed",
+        "writer": "Written by Paul Schrader"
+      },
+      {
+        "movie": "Green Book",
+        "writer": "Written by Nick Vallelonga, Brian Currie, Peter Farrelly"
+      },
+      {
+        "movie": "Roma",
+        "writer": "Written by Alfonso Cuarón"
+      },
+      {
+        "movie": "Vice",
+        "writer": "Written by Adam McKay"
+      }
+    ],
+    "winner": {
+      "movie": "Green Book",
+      "writer": "Written by Nick Vallelonga, Brian Currie, Peter Farrelly"
+    }
+  }
+}]

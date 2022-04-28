@@ -1,0 +1,8 @@
+[{
+  "_id": "state001",
+  "batch_in_progress": 110,
+  "last_downloaded_record_in_the_batch": 8,
+  "overall_status": "Complete",
+  "api_calls_today": 0,
+  "last_api_call_date": "24/04/2022"
+}]
