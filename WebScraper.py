@@ -7,7 +7,7 @@ class Oscars:
         pass
     
     def scrape(self):
-        web = webdriver.Chrome('C:/Users/palag/Downloads/chromedriver_win32/chromedriver.exe')
+        web = webdriver.Chrome('./chrome/chromedriver.exe')
         web.get('https://awardsdatabase.oscars.org/')
 
         time.sleep(5)
@@ -106,7 +106,7 @@ class Oscars:
 
             for subgroup in subgroups:
                 subgrp_title = subgroup.find_element_by_css_selector('.result-subgroup-title a.nominations-link').text
-                print(subgrp_title)
+#                 print(subgrp_title)
                 award_result_details = subgroup.find_elements_by_css_selector('.awards-result-subgroup-items .result-details')
 
                 for result in award_result_details:
@@ -161,6 +161,5 @@ class Oscars:
                             writing_original_dict["winner"] = {"movie" : movie, "writer" : writer_original}
                         #print(movie + "-" + writer_original + "-" + str(is_winner))
 
-        #print(oscars_dict)
         web.close()
         return oscars_dict
