@@ -10,7 +10,7 @@ class RestApiManager:
         self.http = urllib3.PoolManager()
     
     def fetch(self, url, method, fields = None, headers = None):
-        print("Request details : url={}  method={}  fields={}  headers={}".format(url, method, fields, headers))
+#         print("Request details : url={}  method={}  fields={}  headers={}".format(url, method, fields, headers))
         response = self.call_api(url, method, fields, headers)
         return response
     
@@ -135,6 +135,11 @@ class MongoDBClient:
             self.get_collection(coll_name).update_one(match, json_data)
         except:
             print("Error")
+            
+    def drop_collection(self, name):
+        self.get_collection(name).drop()
+        
+        
 
 class RestClient:
     
@@ -243,8 +248,12 @@ class RestClient:
                 elif count >= batch_size:
                     print("Batch number : {} downloaded successfully".format(str(batch)))
                     batch += 1
+                    new_state = DownloadProgressState(date = date.today().strftime('%d/%m/%Y'), api_calls_today = api_calls_count,                                                                 current_batch = batch, record_no = count, overall_status = status)
+                    new_state.reset_date()
+                    self.update_state(new_state)
+                    time.sleep(3)
                     count = count - batch_size if count > batch_size else 0
-                    should_update_state = True
+                    should_update_state = False
                 if should_update_state:
                     new_state = DownloadProgressState(date = date.today().strftime('%d/%m/%Y'), api_calls_today = api_calls_count,                                                                 current_batch = batch, record_no = count, overall_status = status)
                     new_state.reset_date()
