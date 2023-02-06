@@ -435,3 +435,31 @@ number of awards a film receives.
 + More research into the relationship between 
 production houses and financial variables needs 
 to be done
+
+
+## References
+[1] D. K. Simonton, “Cinematic success criteria and their 
+predictors: The art and business of the film industry,” 
+Psychol. Mark., vol. 26, no. 5, pp. 400–420, 2009, doi: 
+10.1002/mar.20280.
+
+[2] M. Komorowski, D. C. Marshall, J. D. Salciccioli, and Y. Crutain, “Exploratory Data Analysis,” in Secondary 
+Analysis of Electronic Health Records, MIT Critical 
+Data, Ed. Cham: Springer International Publishing, 
+2016, pp. 185–203. doi: 10.1007/978-3-319-43742-
+2_15.
+
+[3] “MovieLens.” https://movielens.org/ (accessed Apr. 28, 
+2022).
+
+[4] “The Movie Database API,” API Docs. 
+https://developers.themoviedb.org/3/movies/get-movie-details (accessed Apr. 28, 2022).
+
+[5] “Movie Database Alternative API Documentation 
+(rapidapi),” RapidAPI. 
+https://rapidapi.com/rapidapi/api/movie-database-alternative/ (accessed Apr. 28, 2022).
+
+[6] “Oscars.org | Academy of Motion Picture Arts and 
+Sciences,” Oscars.org | Academy of Motion Picture Arts 
+and Sciences. https://www.oscars.org/ (accessed Apr. 
+28, 2022)
