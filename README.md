@@ -403,3 +403,35 @@ budget and revenue.
 Budget vs Award Wins:
 + There is no relationship between a film's budget and 
 the number of awards it receives.
+
+
+## CONCLUSIONS AND FUTURE WORK
+
+### A. Conclusions
+Following strategies for creating successful movies 
+could be offered after comprehensive examination of the 
+data:
+
++ Keep the film’s running time between 1.5 and 2 
+hours.
++ There appears to be a positive relationship between 
+budget and popularity of the film among audiences. 
+Increasing the budget of a film or clever marketing 
+might have an impact on its commercial success.
++ Focus more on producing ‘R’, ‘PG-13’ and ‘PG’ 
+rated movies.
++ Release films in ‘English’.
++ Incorporate 'Drama' aspects into the film.
++ Associate the film with major production houses.
+
+### Future Work
++ It's reasonable to investigate award winners by genre 
+to learn more about which genres are most popular 
+with critics and awarding organizations.
++ The number of awards won is a deciding element in 
+winning an Oscar. As a result, further research is 
+needed to determine the elements that influence the 
+number of awards a film receives.
++ More research into the relationship between 
+production houses and financial variables needs 
+to be done
