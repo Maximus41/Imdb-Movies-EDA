@@ -207,6 +207,9 @@ figure (Fig 1). However, several columns, such as 'budget'
 and 'revenue,' contained numerous zero values that were 
 substituted with the median value.
 
+![null_check](./images/null_check.png)
+***Fig 1: Plot displaying Null value count***
+
 ### *B.* Outliers
 Boxplots of all continuous variables were generated, 
 revealing many data outliers. Subsequently, the number of 
@@ -220,6 +223,10 @@ The descriptive statistics of the pertinent variables were
 recorded after that using Five Number Summary and
 calculating standard deviation around the mean, skewness 
 and kurtosis. Those data are presented below:
+
+![descriptives](./images/descriptives.png)
+***Table 3: Descriptive Statistics***
+
 
 Each variable's skewness and kurtosis coefficient were 
 also calculated as already mentioned. The calculated result is 
@@ -253,6 +260,8 @@ events.
 + Almost 95% of all films, excluding Oscar 
 nominees, have only garnered a total of 25 awards.
 
+![box_plots](./images/box_plots.png)
+***Fig 2: Parallel Boxplots***
 
 ### *F.* Histogram
 The following details were revealed from histograms 
@@ -279,7 +288,7 @@ with only about a quarter of the films scoring 60% to
 sites. For over 40% of the films, the Tmdb ratings are 
 between 6 and 7.
 
-### *G.* Covariances of pertinent variables
+### *G.* Pearson's Correlation
 For continuous variables, Pearson's correlation matrix was 
 produced to measure the direction and strength of relationship 
 between them. The results revealed that three variables, 
@@ -290,6 +299,8 @@ relationship between 'budget' and 'vote count' could indicate
 that audiences are more interested in higher-budget films. The
 results can be viewed in Fig 3
 
+![pearson](./images/pearson.png)
+***Fig 3: Pearson’s Correlation Matrix***
 
 
 ### *H.* Covariance
@@ -313,22 +324,37 @@ as 'R' or 'PG-13'.
 were rated 'PG-13'. This indicates that 'R' and 'PG-13' rated films are the most popular 
 categories among moviegoers.
 
+![movie_dist_cert](./images/movie_dist_cert.png)
+***Fig 4: Pie Chart of distribution of films by certificate***
+
+
 Movie distribution by Language (Fig 4.1):
 + Nearly 64% of all the films were released in English.
 + Only 6 % movies were released in French which 
 comes second
 + Other languages account for 21% of total releases.
 
+![movie_dist_lang](./images/movie_dist_lang.png)
+***Fig 4.1: Pie Chart of distribution of films by language***
+
+
 Movie distribution by Genre (Fig 4.2):
 + 'Drama' is the most common genre found in most of 
 the films. It was found in 13% of all the films that 
 were released.
+
+![movie_dist_genre](./images/movie_dist_genre.png)
+***Fig 4.2: Pie chart of distribution of films by genre***
+
 
 Movie distribution by Production Houses (Fig 4.3):
 + The top 10 production companies made 10% of all 
 films.
 + **'Universal Pictures'**, **'Warner Bros.'**, **'Columbia Pictures'**, and **'20th Century Fox'** are among the top 
 10 producers, accounting for 5% of all films.
+
+![producer_dist](./images/producer_dist.png)
+***Fig 4.3: Pie chart of distribution of films by production houses***
 
 
 ### *J.* Bar Charts
@@ -375,6 +401,9 @@ were plotted and following observation was recorded
 + The majority of the Oscar nominations came from 
 films with a 'R' or 'PG-13' rating.
 
+![oscar_noms_cert](./images/oscar_noms_cert.png)
+***Fig 5: Grouped bar chart of films***
+
 
 ### *K.* Line Graphs
 Number of ‘R’, ‘PG-13’ and ‘PG’ films produced over the 
@@ -389,6 +418,10 @@ films in all three categories.
 + In 2018, the number of 'R' films produced fell below 
 that of 'PG-13' films.
 
+![movie_count_by_rating](./images/movie_count_by_rating.png)
+***Fig 6: Line plot showing total no. of films over 10 years***
+
+
 To track the overall budget and revenue of the films over 
 years, a line plot (Fig 6.1) was created. Following 
 observation was made:
@@ -398,6 +431,10 @@ comparison to the budget line, implying that the
 industry is profitable and reliable.
 + Following 2016, there appears to be a drop in both 
 budget and revenue.
+
+![yearly_budget_revenue](./images/yearly_budget_revenue.png)
+***Fig 6.1: Line plot showing total budget and revenue over 10 years***
+
 
 ### *L.* Scatter Plots
 Budget vs Award Wins:
