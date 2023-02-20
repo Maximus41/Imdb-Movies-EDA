@@ -1,4 +1,4 @@
-# EDA of Listed Movies in IMDB (2009-2018)
+# EDA of all IMDB Listed Movies along with Oscars Information (2009-2018)
 
 
 ## Goal
