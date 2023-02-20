@@ -1,27 +1,28 @@
-# DAP-Project-First-Semester-NCI
-Project Source code for DAP Module - 1st Semester - MSc in Data Analytics - National College of Ireland
-<h4>Steps to run the code:</h4>
-<ul><b>1 -></b> Open <b>Anaconda Command Prompt</b></ul>
-<ul><b>2 -></b> Goto Project folder</ul>
-<ul><b>3 -></b> Run the command <b>"conda env create -f environment.yml"</b> to create conda environment</ul>
-<ul><b>4 -></b> Run <b>"conda activate DAP"</b> to activate the environment</ul>
-<ul><b>Note :<i></b> <b>MongoDB</b> and <b>PostgreSQL</b> should be already installed in the system to successfully run the code.</i></ul>
+# EDA of Listed Movies in IMDB (2009-2018)
 
 
-## Objective
+## Goal
 Various study groups and institutions have 
 conducted several studies on the criteria for success in the 
 film business to date. According to one study, there are three 
 factors by which a film's success can be measured. These are 
 ratings given to a film by viewers and reviewers, as well as 
 the picture's financial performance in its first few weeks and 
-the number of awards it receives[1]. Using **ETL (*Extraction, Transformation and Loading*)** techniques, this project will organize various sources of unstructured data into structured format inorder to analyze 
+the number of awards it receives[1]. Using **ETL (*Extraction, Transformation and Loading*)** techniques, this project organized various sources of unstructured data into structured format inorder to analyze 
 datasets on the film industry based on aforementioned criterion. To 
-extract information from the data, the project will use **EDA (*Exploratory Data Analysis*)** techniques available. The main objectives of EDA 
+extract information from the data, the project also used **EDA (*Exploratory Data Analysis*)** techniques available. The main goal of this project 
 can be summarized as follows:
 + **Understand the dataset**
 + **Establish relationships between attributes**
 + **Find out abnormalities in the data**
+
+## Steps to run the code
+<ul><b>1 -></b> Open <b>Anaconda Command Prompt</b></ul>
+<ul><b>2 -></b> Goto Project folder</ul>
+<ul><b>3 -></b> Run the command <b>"conda env create -f environment.yml"</b> to create conda environment</ul>
+<ul><b>4 -></b> Run <b>"conda activate DAP"</b> to activate the environment</ul>
+<ul><b>Note :<i></b> <b>MongoDB</b> and <b>PostgreSQL</b> should be already installed in the system to successfully run the code.</i></ul>
+
 
 ## Methodology
 Data collecting is the most important element of data 
@@ -38,27 +39,27 @@ sources are detailed in the table below **(Table 1)**
 
 | Name | Type | Format | Tables | Link |
 | :---- | :----: | :----: | :----: | :----: |
-| Movielens | CSV | Structured | 4 | [Link](https://movielens.org/) |
-| The Movie Database| API | JSON | NA | [Link](https://developers.themoviedb.org/3/movies/get-movie-details) |
-| The Rapid API | API | JSON | NA | [Link](https://rapidapi.com/rapidapi/api/movie-database-alternative/) |
-| Oscars| Website | Dictionary | NA | [Link](https://www.oscars.org/) |
+| Movielens | CSV | Structured | 4 | [Link](https://movielens.org/) [2] |
+| The Movie Database| API | JSON | NA | [Link](https://developers.themoviedb.org/3/movies/get-movie-details) [3] |
+| The Rapid API | API | JSON | NA | [Link](https://rapidapi.com/rapidapi/api/movie-database-alternative/) [4] |
+| Oscars| Website | Dictionary | NA | [Link](https://www.oscars.org/) [5] |
 
 ***Table 1 : Data Sources***
 
 Details of the tables used from the ***MovieLens*** Dataset are 
-mentioned in the table **(Table 1.1)** below:
+mentioned in the table **(Table 2)** below:
 
 | Name | Attributes| Description |
 | :---- | :----: | :----: |
 | movies.csv | movieId, title, genre | Most basic details of the movie |
 | links.csv | movieId, imdbId, tmdbId| Standard Imdb id and Tmdb id mapped to the movieId |
 
-***Table 1.1 : MovieLens CSV Tables***
+***Table 2 : MovieLens CSV Tables***
 
 ### *B.* Data Pre-processing
 Jupyter Notebook was used to write and run the code 
 for the entire project, using conda as its package manager. 
-The packages used in the project for ETL and EDA are listed below
+The packages used in the project for ETL and EDA are listed below in **Table 3**
 
 | Packages | Description |
 | :---- | :----: |
@@ -71,6 +72,8 @@ The packages used in the project for ETL and EDA are listed below
 | **Seaborn** | It is a data-visualization library used in the project for drawing plots.|
 | **Matplotlib** | Similar to Seaborn this is also a data-visualization library. Infact Seaborn is based on Matplotlib.|
 
+***Table 3:** List of Important Packages & their Description*
+
 The conda environment containing the above mentioned packages were created from the *environment.yml* file by executing the following commands in *Conda prompt*:
 
 ```
@@ -80,23 +83,27 @@ The conda environment containing the above mentioned packages were created from 
 • ipython kernel install --user --name=DAP
 ```
 
-The final master dataset was obtained from all the four data sources following the ***ETL*** steps described below and illustrated in the figure:
+The final master dataset was obtained from all the four data sources following the ***ETL*** steps described below and illustrated in the **Figure 4**:
 
 ***Step 1 :*** \
 The CSV files from the MovieLens dataset, was used to create a sorted list of 2000 movies released 
 between 2009 to 2018. The data was sorted using the year 
 value taken from the ***'title'*** column in the ***'movies.csv'*** file. 
 Then, on the basis of ***'movieId'***, attribute, records from both the tables
-***‘movies’*** and ***‘links’*** were merged to create a single collection. 
-This combined table were then iteratively traversed to retrieve 
-details from the APIs previously listed using the corresponding 
-external ids.
+***‘movies’*** and ***‘links’*** were merged to create a single collection. **Figure 1** below shows the
+the merged list.  This combined table were then iteratively traversed to retrieve 
+details from the APIs previously listed in **Table 1** using the corresponding 
+external ids **(imdbid & tmdbid)**.
+
+![merged_csv](./images/merged_csv.png)
+
+***Fig 1:** Dataframe showing the merged list*
 
 ***Step 2:***\
 Both API responses have attributes that are both common 
-and distinctive. They were both called to obtain detailed 
+and distinctive. Example of one such api response is provided below in **Figure 2**. They were both called to obtain detailed 
 information about the films, and their responses were saved in 
-MongoDB as JSON documents. In the data pipeline, 
+**MongoDB** as **JSON** documents. In the data pipeline, 
 MongoDB served as a good staging destination, allowing 
 room to resume without having to contact the APIs again if 
 data was corrupted during subsequent phases. The persistence 
@@ -107,6 +114,43 @@ created to retain information about the latest state of the Http
 requests, which was then saved as a document in a separate 
 collection titled 'State' in the MongoDB database.
 
+```
+{
+  "_id": 68600,
+  "Title": "Balls Out: Gary the Tennis Coach",
+  "Year": "2009",
+  "Rated": "R",
+  "Released": "09 Apr 2009",
+  "Runtime": "92 min",
+  "Genre": "Comedy, Sport",
+  "Director": "Danny Leiner",
+  "Writer": "Andy Stock, Rick Stempson",
+  "Actors": "Seann William Scott, Randy Quaid, Brando Eaton",
+  "Plot": "A high school janitor has not recovered from his failed career as a tennis pro. He begins coaching his beloved sport to a group of misfits and leads them to the Nebraska State Championships.",
+  "Language": "English",
+  "Country": "United States",
+  "Awards": "N/A",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BYmY3YmUxZDctMGE2MC00Nzk1LWFjOWMtYjM5ZTI0MTYyMjUxXkEyXkFqcGdeQXVyNTYyNDI4MzY@._V1_SX300.jpg",
+  "Ratings": [
+    {
+      "Source": "Internet Movie Database",
+      "Value": "5.5/10"
+    }
+  ],
+  "Metascore": "N/A",
+  "imdbRating": "5.5",
+  "imdbVotes": "9,815",
+  "imdbID": "tt0787470",
+  "Type": "movie",
+  "DVD": "13 Jan 2009",
+  "BoxOffice": "N/A",
+  "Production": "N/A",
+  "Website": "N/A",
+  "Response": "True"
+}
+```
+***Fig 2:** Imdb API HTTP Response*
+
 ***Step 3:***\
 The final source of data provides raw data on Oscar wins 
 and nominations under the categories of "Best 
@@ -116,7 +160,236 @@ Awards was scraped using Selenium to obtain this
 information. Selenium is a GUI testing tool that can automate 
 web page clicks and extract data from the HTML content. The 
 scraped data was then converted to JSON and placed in a 
-MongoDB database as documents.
+MongoDB database as documents. Example of one such JSON object is provided below in **Figure 3**.
+
+```
+{
+  "_id": {
+    "$oid": "6264b1c5dc3142ac111be7b2"
+  },
+  "year": "2002",
+  "index": "(75th)",
+  "directing": {
+    "nominations": [
+      {
+        "movie": "Chicago",
+        "director": "Rob Marshall"
+      },
+      {
+        "movie": "Gangs of New York",
+        "director": "Martin Scorsese"
+      },
+      {
+        "movie": "The Hours",
+        "director": "Stephen Daldry"
+      },
+      {
+        "movie": "The Pianist",
+        "director": "Roman Polanski"
+      },
+      {
+        "movie": "Talk to Her",
+        "director": "Pedro Almodóvar"
+      }
+    ],
+    "winner": {
+      "movie": "The Pianist",
+      "director": "Roman Polanski"
+    }
+  },
+  "acting": {
+    "nominations": [
+      {
+        "movie": "The Pianist",
+        "actor": "Adrien Brody"
+      },
+      {
+        "movie": "Adaptation",
+        "actor": "Nicolas Cage"
+      },
+      {
+        "movie": "The Quiet American",
+        "actor": "Michael Caine"
+      },
+      {
+        "movie": "Gangs of New York",
+        "actor": "Daniel Day-Lewis"
+      },
+      {
+        "movie": "About Schmidt",
+        "actor": "Jack Nicholson"
+      }
+    ],
+    "winner": {
+      "movie": "The Pianist",
+      "actor": "Adrien Brody"
+    }
+  },
+  "acting_female": {
+    "nominations": [
+      {
+        "movie": "Frida",
+        "actress": "Salma Hayek"
+      },
+      {
+        "movie": "The Hours",
+        "actress": "Nicole Kidman"
+      },
+      {
+        "movie": "Unfaithful",
+        "actress": "Diane Lane"
+      },
+      {
+        "movie": "Far from Heaven",
+        "actress": "Julianne Moore"
+      },
+      {
+        "movie": "Chicago",
+        "actress": "Renée Zellweger"
+      }
+    ],
+    "winner": {
+      "movie": "The Hours",
+      "actress": "Nicole Kidman"
+    }
+  },
+  "support_acting": {
+    "nominations": [
+      {
+        "movie": "Adaptation",
+        "actor": "Chris Cooper"
+      },
+      {
+        "movie": "The Hours",
+        "actor": "Ed Harris"
+      },
+      {
+        "movie": "Road to Perdition",
+        "actor": "Paul Newman"
+      },
+      {
+        "movie": "Chicago",
+        "actor": "John C. Reilly"
+      },
+      {
+        "movie": "Catch Me If You Can",
+        "actor": "Christopher Walken"
+      }
+    ],
+    "winner": {
+      "movie": "Adaptation",
+      "actor": "Chris Cooper"
+    }
+  },
+  "support_acting_female": {
+    "nominations": [
+      {
+        "movie": "About Schmidt",
+        "actress": "Kathy Bates"
+      },
+      {
+        "movie": "The Hours",
+        "actress": "Julianne Moore"
+      },
+      {
+        "movie": "Chicago",
+        "actress": "Queen Latifah"
+      },
+      {
+        "movie": "Adaptation",
+        "actress": "Meryl Streep"
+      },
+      {
+        "movie": "Chicago",
+        "actress": "Catherine Zeta-Jones"
+      }
+    ],
+    "winner": {
+      "movie": "Chicago",
+      "actress": "Catherine Zeta-Jones"
+    }
+  },
+  "best_picture": {
+    "nominations": [
+      {
+        "movie": "Chicago"
+      },
+      {
+        "movie": "Gangs of New York"
+      },
+      {
+        "movie": "The Hours"
+      },
+      {
+        "movie": "The Lord of the Rings: The Two Towers"
+      },
+      {
+        "movie": "The Pianist"
+      }
+    ],
+    "winner": {
+      "movie": "Chicago"
+    }
+  },
+  "writing_adapted": {
+    "nominations": [
+      {
+        "movie": "About a Boy",
+        "writer": "Screenplay by Peter Hedges and Chris Weitz & Paul Weitz"
+      },
+      {
+        "movie": "Adaptation",
+        "writer": "Screenplay by Charlie Kaufman and Donald Kaufman"
+      },
+      {
+        "movie": "Chicago",
+        "writer": "Screenplay by Bill Condon"
+      },
+      {
+        "movie": "The Hours",
+        "writer": "Screenplay by David Hare"
+      },
+      {
+        "movie": "The Pianist",
+        "writer": "Screenplay by Ronald Harwood"
+      }
+    ],
+    "winner": {
+      "movie": "The Pianist",
+      "writer": "Screenplay by Ronald Harwood"
+    }
+  },
+  "writing_original": {
+    "nominations": [
+      {
+        "movie": "Far from Heaven",
+        "writer": "Written by Todd Haynes"
+      },
+      {
+        "movie": "Gangs of New York",
+        "writer": "Screenplay by Jay Cocks and Steve Zaillian and Kenneth Lonergan; Story by Jay Cocks"
+      },
+      {
+        "movie": "My Big Fat Greek Wedding",
+        "writer": "Written by Nia Vardalos"
+      },
+      {
+        "movie": "Talk to Her",
+        "writer": "Written by Pedro Almodóvar"
+      },
+      {
+        "movie": "Y Tu Mamá También",
+        "writer": "Written by Carlos Cuarón and Alfonso Cuarón"
+      }
+    ],
+    "winner": {
+      "movie": "Talk to Her",
+      "writer": "Written by Pedro Almodóvar"
+    }
+  }
+}
+```
+***Fig 3:** Scraped Data from Oscars.org in JSON Format*
 
 ***Step 4:***\
 ERDs (Entity Relationship Diagrams) were 
@@ -141,7 +414,12 @@ relatively tiny amount of data (about 2k rows).
 
 
 ![methodology](./images/dap_methodology.png)
-**Fig :** ETL Steps
+***Fig 4:** Data Extraction, Transformation & Loading Steps*
+
+***Data Description:***\
+Finally the following variables were included in the main table **‘Movie’** that was created after combining data from several sources.
+
+![data_attrs](./images/movie_attrs.png)
 
 ### *C.* Data Transformation
 Outliers were initially detected and deleted in this step. In 
@@ -151,7 +429,7 @@ frame produced from the SQL table 'Movie' to include crucial
 features. Several multivalued properties, such as languages, 
 genres, writers, directors, and productions, were maintained in 
 their own relational tables in this database. The following 
-dichotomous (Table 2) and continuous features (Table 2.1)
+dichotomous **(Table 4)** and continuous features **(Table 5)**
 were created using the information from these multivalued 
 attribute tables and the academy_awards:
 
@@ -163,7 +441,7 @@ attribute tables and the academy_awards:
 | **oscar_nominated_actress** | Indicates whether any of the actresses has been nominated for an Academy Award. |
 | **oscar_nominated_writer** | Indicates whether any of the writers has been nominated for an Academy Award.|
 
-***Table 2 : New Categorical Features***
+***Table 4 : New Categorical Features***
 
 
 | Name | Description |
@@ -172,9 +450,9 @@ attribute tables and the academy_awards:
 | **number_of_writers_in_a_movie** | The total number of writers engaged in a film |
 | **number_of_producers_in_a_movie** | The total number of producers engaged in a film |
 
-***Table 2.1 : New Continuous Features***
+***Table 5 : New Continuous Features***
 
-As shown below, new pandas dataframes were created by 
+As listed below (description of pandas data frames), new pandas data frames were created by 
 merging information from multiple tables: 
 
 + Number of movies grouped by producers between 
@@ -209,12 +487,12 @@ transformation and exploratory analyses in the order below:
 
 ### *A.* Null and Zero Values
 The data didn't have many null values, as shown in the 
-figure (Fig 1). However, several columns, such as 'budget' 
+figure **(Fig 5)**. However, several columns, such as 'budget' 
 and 'revenue,' contained numerous zero values that were 
 substituted with the median value.
 
 ![null_check](./images/null_check.png)
-***Fig 1: Plot displaying Null value count***
+***Fig 5:** Plot displaying Null value count*
 
 ### *B.* Outliers
 Boxplots of all continuous variables were generated, 
@@ -231,15 +509,18 @@ calculating standard deviation around the mean, skewness
 and kurtosis. Those data are presented below:
 
 ![descriptives](./images/descriptives.png)
-***Table 3: Descriptive Statistics***
+***Table 6: Descriptive Statistics***
 
+
+![skew_kurt](./images/skew_kurt.png)
+
+***Table 7:** Skewness & Kurtosis*
 
 Each variable's skewness and kurtosis coefficient were 
-also calculated as already mentioned. The calculated result is 
+also calculated as already shown above in the **Table 7**. The calculated result is 
 consistent with earlier observations of outliers in boxplots and 
 histograms. Almost every variable is heavily skewed to the 
-right. Except for 'imdb_rating’, ‘metascore', 'rotten 
-tomatoes', and 'vote_average', all variables were found to be 
+right. Except for **'imdb_rating’**, **‘metascore'**, **'rotten tomatoes'**, and **'vote_average'**, all variables were found to be 
 leptokurtic (> 3). Three of the above variables are 
 platykurtic (3), and one is mesokurtic (3). These findings 
 suggest a significantly asymmetrical distribution of values in 
@@ -267,11 +548,11 @@ events.
 nominees, have only garnered a total of 25 awards.
 
 ![box_plots](./images/box_plots.png)
-***Fig 2: Parallel Boxplots***
+***Fig 6:** Parallel Boxplots*
 
 ### *F.* Histogram
 The following details were revealed from histograms 
-of the continuous variables:
+of the continuous variables as depicted in the **Figure 7**:
 
 + **runtime :** The majority of the films were 1 to 1.5 
 hours long.
@@ -294,6 +575,9 @@ with only about a quarter of the films scoring 60% to
 sites. For over 40% of the films, the Tmdb ratings are 
 between 6 and 7.
 
+![histograms](./images/histograms.png)
+***Fig 7:** Histograms*
+
 ### *G.* Pearson's Correlation
 For continuous variables, Pearson's correlation matrix was 
 produced to measure the direction and strength of relationship 
@@ -303,15 +587,15 @@ positive association with 'vote count'. The correlation
 between 'revenue' and 'popularity' is clear and obvious. The 
 relationship between 'budget' and 'vote count' could indicate 
 that audiences are more interested in higher-budget films. The
-results can be viewed in Fig 3
+results can be viewed in **Fig 8**
 
 ![pearson](./images/pearson.png)
-***Fig 3: Pearson’s Correlation Matrix***
+***Fig 8: Pearson’s Correlation Matrix***
 
 
 ### *H.* Covariance
 The dataset's covariance matrix is produced, and the following 
-odd negative covariances are discovered (Table 4):
+odd negative covariances are discovered **(Table 8)**:
 
 |Variables|metascore|rotten_tomatoes|oscar_win|budget|
 |:----|:----:|:----:|:----:|:----:|
@@ -320,10 +604,10 @@ odd negative covariances are discovered (Table 4):
 |oscar_win|0.1|0.1|0|--|
 |budget|-40570344|-101968741|-42967|2.43e^15|
 
-***Table 4 : Covariances of pertinent variables***
+***Table 8 :** Covariances of pertinent variables*
 
 ### *I.* Pie Charts
-Movie distribution by censor certificate:(Fig 4)
+Movie distribution by censor certificate:**(Fig 9)**
 + Almost two third of all films produced are labelled
 as 'R' or 'PG-13'.
 + Around 39% of all films were rated 'R', while 26% 
@@ -331,36 +615,39 @@ were rated 'PG-13'. This indicates that 'R' and 'PG-13' rated films are the most
 categories among moviegoers.
 
 ![movie_dist_cert](./images/movie_dist_cert.png)
-***Fig 4: Pie Chart of distribution of films by certificate***
+
+***Fig 9:** Pie Chart of distribution of films by certificate*
 
 
-Movie distribution by Language (Fig 4.1):
+Movie distribution by Language **(Fig 10)**:
 + Nearly 64% of all the films were released in English.
 + Only 6 % movies were released in French which 
 comes second
 + Other languages account for 21% of total releases.
 
 ![movie_dist_lang](./images/movie_dist_lang.png)
-***Fig 4.1: Pie Chart of distribution of films by language***
+
+***Fig 10:** Pie Chart of distribution of films by language*
 
 
-Movie distribution by Genre (Fig 4.2):
+Movie distribution by Genre **(Fig 11)**:
 + 'Drama' is the most common genre found in most of 
 the films. It was found in 13% of all the films that 
 were released.
 
 ![movie_dist_genre](./images/movie_dist_genre.png)
-***Fig 4.2: Pie chart of distribution of films by genre***
+
+***Fig 11:** Pie chart of distribution of films by genre*
 
 
-Movie distribution by Production Houses (Fig 4.3):
+Movie distribution by Production Houses **(Fig 12)**:
 + The top 10 production companies made 10% of all 
 films.
 + **'Universal Pictures'**, **'Warner Bros.'**, **'Columbia Pictures'**, and **'20th Century Fox'** are among the top 
 10 producers, accounting for 5% of all films.
 
 ![producer_dist](./images/producer_dist.png)
-***Fig 4.3: Pie chart of distribution of films by production houses***
+***Fig 12:** Pie chart of distribution of films by production houses*
 
 
 ### *J.* Bar Charts
@@ -403,17 +690,18 @@ the team.
 Grouped Bar Chart displaying Number of films
 produced factored by censor certificate and oscar win 
 were plotted and following observation was recorded
-(Fig 5)
+**(Fig 13)**
 + The majority of the Oscar nominations came from 
 films with a 'R' or 'PG-13' rating.
 
 ![oscar_noms_cert](./images/oscar_noms_cert.png)
-***Fig 5: Grouped bar chart of films***
+
+***Fig 13:** Grouped bar chart of films*
 
 
 ### *K.* Line Graphs
 Number of ‘R’, ‘PG-13’ and ‘PG’ films produced over the 
-period of 10 years (2009 - 2018) were plotted (Fig 6) using 
+period of 10 years (2009 - 2018) were plotted **(Fig 14)** using 
 line plot and the following observation was made.
 + From 2009 through 2018, 'R' films dominated the 
 film industry.
@@ -425,11 +713,11 @@ films in all three categories.
 that of 'PG-13' films.
 
 ![movie_count_by_rating](./images/movie_count_by_rating.png)
-***Fig 6: Line plot showing total no. of films over 10 years***
+***Fig 14:** Line plot showing total no. of films over 10 years*
 
 
 To track the overall budget and revenue of the films over 
-years, a line plot (Fig 6.1) was created. Following 
+years, a line plot **(Fig 15)** was created. Following 
 observation was made:
 
 + The revenue line remained consistently large in 
@@ -439,7 +727,7 @@ industry is profitable and reliable.
 budget and revenue.
 
 ![yearly_budget_revenue](./images/yearly_budget_revenue.png)
-***Fig 6.1: Line plot showing total budget and revenue over 10 years***
+***Fig 15:** Line plot showing total budget and revenue over 10 years*
 
 
 ### *L.* Scatter Plots
@@ -486,23 +774,17 @@ predictors: The art and business of the film industry,”
 Psychol. Mark., vol. 26, no. 5, pp. 400–420, 2009, doi: 
 10.1002/mar.20280.
 
-[2] M. Komorowski, D. C. Marshall, J. D. Salciccioli, and Y. Crutain, “Exploratory Data Analysis,” in Secondary 
-Analysis of Electronic Health Records, MIT Critical 
-Data, Ed. Cham: Springer International Publishing, 
-2016, pp. 185–203. doi: 10.1007/978-3-319-43742-
-2_15.
-
-[3] “MovieLens.” https://movielens.org/ (accessed Apr. 28, 
+[2] “MovieLens.” https://movielens.org/ (accessed Apr. 28, 
 2022).
 
-[4] “The Movie Database API,” API Docs. 
+[3] “The Movie Database API,” API Docs. 
 https://developers.themoviedb.org/3/movies/get-movie-details (accessed Apr. 28, 2022).
 
-[5] “Movie Database Alternative API Documentation 
+[4] “Movie Database Alternative API Documentation 
 (rapidapi),” RapidAPI. 
 https://rapidapi.com/rapidapi/api/movie-database-alternative/ (accessed Apr. 28, 2022).
 
-[6] “Oscars.org | Academy of Motion Picture Arts and 
+[5] “Oscars.org | Academy of Motion Picture Arts and 
 Sciences,” Oscars.org | Academy of Motion Picture Arts 
 and Sciences. https://www.oscars.org/ (accessed Apr. 
 28, 2022)
