@@ -58,19 +58,18 @@ mentioned in the table **(Table 1.1)** below:
 ### *B.* Data Pre-processing
 Jupyter Notebook was used to write and run the code 
 for the entire project, using conda as its package manager. 
-The packages used in the project for ETL and EDA are listed below:
-Pandas
-- **Pymongo :** This python distribution was used to access MongoDB no-sql database from the jupyter notebook.
-- **Urllib3 :** It is a popular python HTTP client required in the project for querying rest apis.
-- **Selenium :** It is a versatile automation tool mainly used for testing softwares, but was used in the 
-project for scraping important information from *www.oscars.org* website.
-- **Psycopg2 :** This is a PostgreSQL adapter used in the project for performing *CRUD* operations
-in PostgreSQL Database.
-- **Sqlalchemy :** This is a python ORM used in the project to map the dataframes to its corresponding 
-relational tables in the sql database.
-- **Seaborn :** It is a data-visualization library used in the project for drawing plots.
-- **Matplotlib :** Similar to Seaborn this is also a data-visualization library. Infact Seaborn
-is based on Matplotlib.
+The packages used in the project for ETL and EDA are listed below
+
+| Packages | Description |
+| :---- | :----: |
+| **Pandas** | Pandas is a popular data analysis tool used for all the ETL operations in the project|
+| **Pymongo** | This python distribution was used to access MongoDB no-sql database from the jupyter notebook.|
+| **Urllib3** | It is a popular python HTTP client required in the project for querying rest apis.|
+| **Selenium** |It is a versatile automation tool mainly used for testing softwares, but was used in the project for scraping important information from *www.oscars.org* website.|
+| **Psycopg2** | This is a PostgreSQL adapter used in the project for performing *CRUD* operations in PostgreSQL Database.|
+| **Sqlalchemy** | This is a python ORM used in the project to map the dataframes to its corresponding relational tables in the sql database.|
+| **Seaborn** | It is a data-visualization library used in the project for drawing plots.|
+| **Matplotlib** | Similar to Seaborn this is also a data-visualization library. Infact Seaborn is based on Matplotlib.|
 
 The conda environment containing the above mentioned packages were created from the *environment.yml* file by executing the following commands in *Conda prompt*:
 
