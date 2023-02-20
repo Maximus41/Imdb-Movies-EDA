@@ -60,14 +60,17 @@ Jupyter Notebook was used to write and run the code
 for the entire project, using conda as its package manager. 
 The packages used in the project for ETL and EDA are listed below:
 Pandas
-- **Pymongo**
-- **Urllib3**
-- **Selenium**
-- **Psycopg2**
-- **Sqlalchemy**
-- **Seaborn**
-- **Matplotlib**
-- **missingno**
+- **Pymongo :** This python distribution was used to access MongoDB no-sql database from the jupyter notebook.
+- **Urllib3 :** It is a popular python HTTP client required in the project for querying rest apis.
+- **Selenium :** It is a versatile automation tool mainly used for testing softwares, but was used in the 
+project for scraping important information from *www.oscars.org* website.
+- **Psycopg2 :** This is a PostgreSQL adapter used in the project for performing *CRUD* operations
+in PostgreSQL Database.
+- **Sqlalchemy :** This is a python ORM used in the project to map the dataframes to its corresponding 
+relational tables in the sql database.
+- **Seaborn :** It is a data-visualization library used in the project for drawing plots.
+- **Matplotlib :** Similar to Seaborn this is also a data-visualization library. Infact Seaborn
+is based on Matplotlib.
 
 The conda environment containing the above mentioned packages were created from the *environment.yml* file by executing the following commands in *Conda prompt*:
 
@@ -78,7 +81,7 @@ The conda environment containing the above mentioned packages were created from 
 • ipython kernel install --user --name=DAP
 ```
 
-The final master dataset was obtained from all the four data sources following the ***ETL*** steps described below:
+The final master dataset was obtained from all the four data sources following the ***ETL*** steps described below and illustrated in the figure:
 
 ***Step 1 :*** \
 The CSV files from the MovieLens dataset, was used to create a sorted list of 2000 movies released 
@@ -136,6 +139,10 @@ was 'sqlalchemy'. This Python library makes it easy to insert
 large amounts of data simultaneously into a PostgreSQL 
 database. This is a quick operation for the project's 
 relatively tiny amount of data (about 2k rows).
+
+
+![methodology](./images/dap_methodology.png)
+**Fig :** ETL Steps
 
 ### *C.* Data Transformation
 Outliers were initially detected and deleted in this step. In 
