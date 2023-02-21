@@ -1,5 +1,30 @@
 # EDA of all IMDB Listed Movies along with Oscars Information (2009-2018)
 
+## Table of Contents
+1. [Goal](#goal)
+2. [Steps to run the code](#steps-to-run-the-code)
+3. [Methodology](#methodology)
+	+ [Data Selection](#a-data-selection)
+	+ [Data Pre-processing](#b-data-pre-processing)
+	+ [Data Transformation](#c-data-transformation)
+	+ [Exploratory Data Analysis](#d-exploratory-data-analysis)
+4. [Results And Evaluation](#results-and-evaluation)
+	+ [Null and Zero Values](#a-null-and-zero-values)
+	+ [Outliers](#b-outliers)
+	+ [Descriptive Analysis](#c-descriptive-analysis)
+	+ [Feature Engineering](#d-feature-engineering)
+	+ [Parallel Boxplots](#e-parallel-boxplots)
+	+ [Histogram](#f-histogram)
+	+ [Pearson's Correlation](#g-pearsons-correlation)
+	+ [Covariance](#h-covariance)
+	+ [Pie Charts](#i-pie-charts)
+	+ [Bar Charts](#j-bar-charts)
+	+ [Line Graphs](#k-line-graphs)
+	+ [Scatter Plots](#l-scatter-plots)
+5. [Conclusion and Future Work](#conclusion-and-future-work)
+	+ [Conclusions](#conclusions)
+	+ [Future Work](#future-work)
+6. [References](#references)
 
 ## Goal
 Various study groups and institutions have 
@@ -733,12 +758,14 @@ budget and revenue.
 ### *L.* Scatter Plots
 Budget vs Award Wins:
 + There is no relationship between a film's budget and 
-the number of awards it receives.
+the number of awards it receives.Scatter Plots for the same belonging to ***"R"*** and ***"PG-13"*** category is displayed in the **Figure 16** below.
 
+![scatter](./images/award_budget_scatter.png)
+***Fig 16:** Award Win Vs Budget Scatter Plots*
 
 ## CONCLUSIONS AND FUTURE WORK
 
-### A. Conclusions
+### Conclusions
 Following strategies for creating successful movies 
 could be offered after comprehensive examination of the 
 data:
