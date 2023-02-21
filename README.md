@@ -21,7 +21,7 @@
 	+ [Bar Charts](#j-bar-charts)
 	+ [Line Graphs](#k-line-graphs)
 	+ [Scatter Plots](#l-scatter-plots)
-5. [Conclusion and Future Work](#conclusion-and-future-work)
+5. [Conclusion and Future Work](#conclusions-and-future-work)
 	+ [Conclusions](#conclusions)
 	+ [Future Work](#future-work)
 6. [References](#references)
@@ -507,8 +507,8 @@ pie charts
 
 
 ## Results And Evaluation
-The dataset was subjected to a number cleaning, 
-transformation and exploratory analyses in the order below:
+The dataset was subjected to a number of cleaning, 
+transformation and exploratory analysis in the order below:
 
 ### *A.* Null and Zero Values
 The data didn't have many null values, as shown in the 
